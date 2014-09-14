@@ -1,0 +1,387 @@
+/***************Body Fix **************/
+body {
+ overflow-x: hidden!important;
+}
+
+@media only screen and (max-device-width: 1060px) {
+ body {
+   margin-left:-20px;
+ }
+}
+
+/* Styles specific to this particular page */
+.scroll-pane,
+.scroll-pane-arrows
+{
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+.horizontal-only
+{
+	height: auto;
+	max-height: 200px;
+}
+
+/**************fonts**********************/
+@font-face {
+  font-family: 'Damion';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Damion'), url(/core/fonts/qyDz-al48wZmmi6RcQn1Mg.woff) format('woff');
+}
+
+
+/*************Header***************/
+#header-logo {
+ box-shadow: 0px 0px 30px whitesmoke;
+ border-radius: 2pc;
+ margin-top: 6px;
+}
+
+@media only screen and (min-device-height:800px) {
+	
+	#header {
+		margin-top:50px;
+	}
+} 
+
+#social {
+background-color: rgba(255,255,255,.5);
+padding-left: 8px;
+padding-top:5px;
+border-radius: 1pc;
+box-shadow: 0px 0px 30px white;
+z-index:2;
+margin-top:6px;
+}
+
+.sm-link:hover {
+ box-shadow:0px 0px 20px white;
+}
+
+/*********Nav Bar*****************/
+#nav-bar {
+ height:26px;
+ font-size:14px;
+ margin-top:0px;
+}
+
+#nav li {
+ display:inline;
+ cursor:pointer;
+ padding:10px 22px;
+ border-top-left-radius:1pc;
+ border-top-right-radius:1pc;
+ box-shadow:0px 0px 1px rgba(0,0,0,.4),0px -2px 4px #0258b2;
+ background: #84B1E0;
+ background: -webkit-linear-gradient(white, #0258b2); /* For Safari */
+ background: -o-linear-gradient(white, #0258b2); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #0258b2); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #0258b2); /* Standard syntax (must be last) */
+}
+
+#nav li  a{
+ color:black;
+ text-decoration:none;
+ height:100%;
+ width:100%;
+ }
+
+.nav-item:hover {
+ box-shadow:-1px -3px 6px white,-2px -5px 10px whitesmoke!important;
+ text-shadow:0px 0px 2px yellow;
+ background: -webkit-linear-gradient(white, #6699ff)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #6699ff)!important; /* Standard syntax (must be last) */
+}
+
+#order-tab {
+ height: 28px;
+ margin-top: -22px!important;
+ font-size:24px;
+ font-weight:bold;
+ box-shadow:0px 0px 10px red!important;
+ background:orange!important;
+ background: -webkit-linear-gradient(yellow, red)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(yellow, red)!important; /* Standard syntax (must be last) */
+}
+
+#order-tab  a{
+ color: #660033!important;
+ }
+
+#order-tab:hover {
+ box-shadow:0px -4px 20px yellow!important;
+}
+
+/****************Content Window********************/
+#content {
+ overflow: hidden;
+ background-color: rgba(255,255,255,.0);
+ height:540px;
+ margin-top: 10px;
+ padding-top:4px;
+}
+
+#center-content {
+ overflow: hidden;
+ background-color: rgba(255,255,255,.4);
+ width: 744px;
+ height:100%;
+ margin-left:38px;
+ margin-top:-16px;
+ border-bottom:double rgba(0,0,0,.2);
+}
+
+@-moz-document url-prefix() {
+    #center-content {
+        width: 740px;
+		height: 100%;
+		margin-left: 41px;
+		margin-top: -16px;
+    }
+}
+
+#home-bottom {
+height: 25%;
+border: double rgba(0,0,0,.2);
+}
+
+/*************Footer*******************/
+#footer a {
+ color:grey;
+}
+
+#footer {
+ color:grey;
+ position:absolute;
+ width:100%;
+}
+
+#footer-row-1 {
+ font-size:12px;
+ }
+
+#footer-row-2 {
+ font-size:10px;
+ }
+
+#f-nav {
+ margin:0px;
+}
+
+#f-nav li {
+ display:inline;
+ padding: 0px 16px;
+}
+
+/***********768 Resolution Media Query*********/
+/***************Body Fix **************/
+@media only screen and (max-device-height:770px) {
+	
+	#default-main {
+	height:310px;
+	}
+	
+	/*************Header***************/
+	#header-logo {
+	margin-top: 0px;
+	height: 50px;
+	}
+
+
+	#social {
+	padding-left: 8px;
+	padding-top:5px;
+	}
+
+	/*********Nav Bar*****************/
+	#nav-bar {
+	height: 22px;
+	font-size:14px;
+	margin-top: -10px;
+	}
+
+	#nav li {
+	padding:10px 22px;
+	}
+
+	/****************Content Window********************/
+	#content {
+	height: 486px;
+	}
+
+	#center-content {
+	margin-top:-22px;
+	}
+
+	#down-arrow, #up-arrow {
+	height:20px!important;
+	margin-top:184px!important;
+	}
+	
+	.level-1 {
+	margin-top:0px!important;
+	}
+	
+	#text-box {
+	margin-top:10px!important;
+	height:170px!important;
+	}
+	
+} 
+
+/***********************Iphone 5 Fix********************/
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : portrait) { 
+
+body {
+ background-size:1000px 1100px!important;
+}
+
+#header {
+ margin-top:100px;
+}
+
+#header-logo {
+ width:600px;
+ height:110px;
+ border-radius:4pc;
+ margin-left:20px;
+ padding-left:10px;
+ background:#0d60b5;
+}
+
+#social {
+ height:80px;
+ margin:40px;
+}
+
+.sm-link {
+ width:60px!important;
+ height:60px!important;
+ padding:0px 30px; 
+ border-radius:1pc;
+}
+
+#nav li {
+ font-size:27px;
+ padding:50px 9px;
+}
+
+#order-tab {
+ padding:50px 10px!important;
+}
+
+#nav {
+ margin-top:80px;
+ margin-left:-6px;
+ }
+
+#content {
+ height:900px;
+}
+
+#center-content {
+ margin:10px 36px;
+ width:960px;
+}
+
+.f-nav-item {
+ font-size:22px;
+ font-weight:bolder;
+  padding:8px 0px;
+ }
+
+#footer-row-2 {
+font-size: 20px;
+}
+
+}
+
+/***********************Iphone 4 Fix********************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : landscape) { 
+	#nav-bar {
+	 margin-left:-40px;
+	}
+
+}
+
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : portrait) { 
+
+#content {
+ height:340px;
+ margin-top: 10px;
+ padding-top:4px;
+}
+
+#nav-bar {
+ margin-left:-10px;
+}
+#header {
+ margin-top:10px;
+}
+
+#header-logo {
+ width:600px;
+ height:110px;
+ border-radius:4pc;
+ margin-left:20px;
+ padding-left:10px;
+ background:#0d60b5;
+}
+
+#social {
+ height:80px;
+ margin:40px;
+}
+
+.sm-link {
+ width:60px!important;
+ height:60px!important;
+ padding:0px 30px; 
+ border-radius:1pc;
+}
+
+#nav li {
+ font-size:27px;
+ padding:50px 9px;
+}
+
+#order-tab {
+ padding:50px 10px!important;
+}
+
+#nav {
+ margin-top:80px;
+ margin-left:-6px;
+ }
+
+#content {
+ height:960px;
+}
+
+#center-content {
+ margin:10px 36px;
+ width:926px;
+}
+
+.f-nav-item {
+  font-size:22px;
+  font-weight:bolder;
+  padding:8px 0px;
+ }
+
+#footer-row-2 {
+ font-size: 20px;
+}
+
+
+
+}

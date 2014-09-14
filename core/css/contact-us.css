@@ -1,0 +1,177 @@
+#contact-us-page {
+ height:100%;
+}
+
+#contact-us-content {
+ padding: 0px 10px;
+ margin-top:-20px;
+ cursor:default;
+}
+
+#contact-us-content h1 {
+color: blue;
+text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#contact-us-content p {
+ margin-top:-30px;   
+ margin-top:-20px\0/;   
+ }
+
+#contact-us, #contact-us a {
+ height:75%;
+ color: blue;
+ font-weight: bold;
+ text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+}
+
+#contact-us-slide-one {
+ height:100%;
+}
+
+#contact-us-form {
+ float:left;
+ width:450px;
+ font-size:12px;
+ color:blue;
+ margin-top: -10px; 
+ margin-top: 0px\0/; 
+}
+
+#question {
+ height:30px;
+}
+
+.map_canvas {
+ height: 136px;
+ width: 260px;
+ position: absolute;
+ margin: 10px 406px;
+ box-shadow: 0px 0px 10px white, 0px 0px 10px blue;
+ border: 1px solid grey;
+}
+
+#company-address {
+ font-size:12px;
+}
+
+#company-address-schema {
+ color:blue;
+}
+
+input[type="text"] {
+width: 140px;
+}
+
+#submit-button {
+border-radius: 1pc;
+box-shadow: 0px 0px 30px white, 0px 0px 30px blue;
+margin-top: 10px;
+cursor: pointer;
+float: left;
+margin-left: 60px;
+}
+
+#captcha {
+ float:left;
+ margin-left:30px;
+}
+
+#captcha-box {
+ float:left;
+ margin:10px;
+ width:30px;
+}
+
+#error-message {
+margin-top: 100px;
+font-size: 20px;
+}
+
+
+
+/******************************************************************************************888****************************************************************************************************************************************************************************************************88
+							Iphone Portrait Media Query
+****************************************************************************************************************************************************************************88*************
+@media screen and (device-aspect-ratio: 2/3) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	#contact-us-content h1 {
+	 font-size:46px;
+	}
+
+	#contact-us-content p {
+	 margin-top:0px;
+	 font-size:26px; 
+	}
+
+	#company-address-schema {
+	 font-size:20px;
+	 margin-top:-20px;
+	}
+	
+	#company-address {
+	 font-size:20px;
+	}
+
+	#company-name {
+	 margin-left:420px;
+	}
+	
+	.map_canvas {
+	 margin: 10px 510px;
+	 border: none;
+	}
+	
+	#contact-us-form {
+	 font-size:14px;
+	}
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+	#nav-dots {
+	 display:none;
+	}
+	
+	.map_canvas {
+	 overflow:hidden;
+	 margin: 70px 420px;
+	 height:120px;
+	}
+
+	#company-address-schema {
+	 position:absolute;
+	 font-size:20px;
+	 margin:-26px 460px;
+	 width:200px;
+	}	
+}
+
+
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : landscape) {
+	.map_canvas {
+	 margin: 60px 420px;
+	}
+}
+
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : portrait) {
+	.map_canvas {
+	 overflow:hidden;
+	 margin: 70px 510px;
+	}
+
+	#company-address-schema {
+	 position:absolute;
+	 font-size:20px;
+	 margin:-56px 540px;
+	 width:200px;
+	}	
+}

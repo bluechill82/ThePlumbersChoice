@@ -1,0 +1,106 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*************Header***************/
+#header-logo {
+box-shadow: 0px 0px 30px whitesmoke;
+border-radius: 2pc;
+height: 50px;
+width: 240px;
+margin: -14px;
+}
+
+/*********Nav Bar*****************/
+#pc-navbar {
+background: rgba(0,0,255,.2);
+height: 70px;
+padding: 10px;
+}
+
+#nav li {
+ cursor:pointer;
+ border-radius:1pc;
+ box-shadow:0px 0px 1px rgba(0,0,0,.4),0px -2px 4px #0258b2;
+ background: #84B1E0;
+ background: -webkit-linear-gradient(white, #0258b2); /* For Safari */
+ background: -o-linear-gradient(white, #0258b2); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #0258b2); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #0258b2); /* Standard syntax (must be last) */
+}
+
+#nav li  a{
+ color:black;
+ text-decoration:none;
+ height:100%;
+ width:100%;
+ }
+
+#nav li:hover {
+ box-shadow:-1px -3px 6px white,-2px -5px 10px whitesmoke;
+ text-shadow:0px 0px 2px yellow;
+ background: -webkit-linear-gradient(white, #6699ff); /* For Safari */
+ background: -o-linear-gradient(white, #6699ff); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #6699ff); /* Standard syntax (must be last) */
+}
+
+#order-tab {
+ font-size:24px;
+ font-weight:bold;
+ box-shadow:0px 0px 10px red!important;
+ background:orange!important;
+ background: -webkit-linear-gradient(yellow, red)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(yellow, red)!important; /* Standard syntax (must be last) */
+}
+
+#order-tab  a{
+ color: #660033!important;
+ }
+
+#order-tab:hover {
+ box-shadow:0px 0px 10px red, 0px -4px 20px yellow!important;
+ background:orange!important;
+ background: -webkit-linear-gradient(yellow, red)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(yellow, red)!important; /* Standard syntax (must be last) */
+}

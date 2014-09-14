@@ -1,0 +1,246 @@
+
+.details {
+display:none;
+}
+
+#inner-details {
+ width: 480px;
+ height: 536px;
+ z-index:10;
+ position:fixed;
+ }
+
+#close-details {
+ margin-left: 138px;
+ margin-top: -34px;
+ float: left;
+ box-shadow: 0px 0px 10px blue;
+ border-radius: 1pc;
+ padding: 4px;
+ background: rgba(255,255,255,.6);
+ position:absolute;
+ z-index:11;
+}
+
+#close-details:hover {
+ background:#fff;
+ box-shadow:0px 0px 30px blue;
+ cursor:pointer;
+ }
+ 
+#deal {
+background: #fff;
+box-shadow: 0px 0px 10px blue, 0px 0px 20px white, 0px 0px 30px blue;
+height: 540px;
+border-radius: 1pc;
+margin: -40px 130px;
+width: 100%;
+}
+
+#offer-frame {
+width: 200px;
+margin-top: -86px;
+position: absolute;
+margin-left: 240px;
+}
+
+#detail-offer {
+ background-size: 100% 100%;
+ color:black;
+ font-size:10px;
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/offer-back.png');
+ position:absolute;
+ margin-top: 70px;
+ margin-left:-210px;
+ height:200px;
+ width:200px;
+}
+
+#offer-text {
+  margin-top:56px;
+}
+
+
+.offer-l1 {
+  color:black;
+}
+
+.offer-l2 {
+  color:red;
+  font-size:12px;
+  font-weight:bold;
+  text-shadow:0px 0px 10px orange;
+}
+
+.offer-l3 {
+  font-weight:bold;
+  color:black;
+}
+
+.offer-l4 {
+  color:black;
+}
+
+.offer-l5 {
+  color:blue;
+}
+
+.offer-l6 {
+ color:black;
+}
+
+.offer-l7 {
+ color:black;
+}
+
+.offer-l8 {
+ color:red;
+ font-weight:bolder;
+ font-size:15px;
+ text-shadow:0px 0px 10px orange;
+}
+
+.paypal {
+ margin: 130px 256px;
+ position:absolute;
+ padding:10px;
+ font-size:16px;
+ color:blue;
+ font-weight:bold;
+ text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 30px blue;
+ text-align:center;
+ z-index:10;
+}
+
+#art-3 #ebay, #art-4 #ebay {
+ margin:112px 40px;
+}
+
+#art-5 #ebay, #art-6 #ebay, #art-7 #ebay{
+  margin:90px 130px;
+}
+
+#art-5 h1, #art-6 h1, #art-7 h1{
+  margin:-4px 120px;
+}
+
+.bl-products-logo {
+  position: absolute;
+  background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/blue-lightning-logo.png');
+  background-size:100% 100%;
+  color:transparent;
+  height: 50px;
+  width: 210px;
+  box-shadow:4px 0px 8px white,4px 0px 20px blue;
+  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='http://localhost/core/images/blue-lightning-logo.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='http://localhost/core/images/blue-lightning-logo.png',
+  sizingMethod='scale')";
+}
+
+#details-art-image {
+ box-shadow:4px 0px 20px white,4px 0px 20px blue;
+ background-color: rgba(255,255,255,.9);
+ margin-top: 200px;
+ border-radius: 1pc;
+ width: 400px;
+ height:50px;
+}
+
+.bl-products-title {
+ position:absolute;
+ height:130px;
+ margin: 60px 10px;
+ color:blue;
+ font-size: 14px;
+ font-weight:bold;
+ text-shadow:-1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+ font-family: "arial,sans-serif";
+ width: 210px;
+}
+
+#art-1-text, #art-2-text, #art-3-text, #art-4-text, #art-5-text, #art-6-text, #art-7-text, #art-8-text  {
+ margin-top:0px;
+ position:absolute;
+ padding:10px;
+ font-size: 14px;
+ color:blue;
+ font-weight:bold;
+ text-shadow:-1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+ background-color: rgba(255,255,255,.6);
+}
+
+#up-arrow {
+width: 60px;
+height: 40px;
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/up.png');
+background-size: 100% 100%;
+margin: 204px 350px;
+position: absolute;
+cursor: hand;
+cursor: pointer;
+}
+
+#up-arrow:hover {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/up-hover.png');
+}
+
+#down-arrow {
+width: 60px;
+height: 40px;
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/blue-down.png');
+background-size: 100% 100%;
+margin: 204px 50px;
+position: absolute;
+cursor: hand;
+cursor: pointer;
+}
+
+#down-arrow:hover {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/down-hover.png');
+}
+
+#line1-slider, #line1-slider-2, #line1-slider-3 {
+ margin-top: 34px;
+}
+
+.line-slider {
+ color:red;
+ text-shadow:0px 0px 10px yellow, 0px 0px 20px orange, 0px 0px 30px red;
+ font-size:20px;
+ margin-bottom:10px;
+ margin-left:-850px;
+ margin-top:10px;
+ padding:0px 30px;
+ } 
+
+ .brand {
+  position:absolute;
+  z-index:-1;
+ }
+ 
+ #art-5 .brand, #art-6 .brand, #art-7 .brand {
+   margin-left:0px;
+ }
+ 
+#details-text-box {
+position: absolute;
+z-index: 2;
+height: 180px;
+width: 460px;
+margin: 20px 10px;
+overflow: hidden;
+border-radius: 1pc;
+box-shadow: 0px 0px 8px white,0px 0px 10px blue;
+}
+ 
+.ebay-image {
+ border-radius:1pc;
+}
+
+#deal h1{
+  margin-left:234px\0/;
+}

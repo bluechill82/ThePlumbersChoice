@@ -1,0 +1,715 @@
+/*********General classes************/
+.hide {
+ display:0px!important;
+}
+
+.product-hide {
+ display:none;
+}
+
+.menu-text {
+font-family: 'Damion', cursive;
+font-size:20px;
+color: blue;
+font-weight: bold;
+text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+padding:10px;
+}
+
+/************body****************/
+#post-content {
+ margin-top: -14px;
+ width: 744px;
+ position:absolute;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/content-back.png') no-repeat;
+ }
+ 
+ 
+#menu-container {
+  overflow:hidden;
+  height:490px;
+  width:260px;
+  margin-bottom:10px;
+}
+
+#menu-slider {
+  margin-top:-90px;
+}
+
+/***********Side Nav Bar **********/
+
+#side-bar {
+ width: 250px;
+ height: 100%;
+ z-index: 10;
+ margin-top: 16px;
+ position: absolute;
+}
+
+/************Side Nav Bar Up / Down Arrows*********/
+#product-select-up-arrow {
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-up.png');
+ background-size: 100% 100%;
+ width: 150px;
+ height: 10px;
+ display:block;
+ cursor: pointer;
+ cursor: hand;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-up.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-up.png',
+  sizingMethod='scale')";
+}
+
+#product-select-up-arrow:hover{
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-up-hover.png');
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-up-hover.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-up-hover.png',
+  sizingMethod='scale')";
+  }
+  
+#product-select-down-arrow {
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-down.png');
+ background-size: 100% 100%;
+ width: 150px;
+ height: 10px;
+ display: block;
+ cursor: pointer;
+ cursor: hand;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-down.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-down.png',
+  sizingMethod='scale')";
+}
+  
+#product-select-down-arrow:hover {
+background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-down-hover.png');
+background-size: 100% 100%;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-down-hover.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/product-select-down-hover.png',
+  sizingMethod='scale')";
+}
+
+/****level 1 blocks*********/
+
+.level-1 {
+ display:inline-block;
+ width: 230px;
+ height: 100px;
+ z-index: 2;
+ background-color:#fff;
+ margin: 10px;
+ border-top-left-radius:1pc;
+ border-top-right-radius:0pc;
+ border-bottom-left-radius:1pc;
+ border-bottom-right-radius:0pc;
+ box-shadow:4px 0px 8px white,4px 0px 20px blue;
+ }
+ 
+#bl {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/B-l-classic-button.png');
+background-size: 100% 100%;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/B-l-classic-button.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/B-l-classic-button.png',
+  sizingMethod='scale')";
+}
+
+#bld {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-drain-button.png');
+background-size: 100% 100%;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-drain-button.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-drain-button.png',
+  sizingMethod='scale')";
+}
+
+#bla {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-a-button.png');
+background-size: 100% 100%;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-a-button.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-a-button.png',
+  sizingMethod='scale')";
+}
+
+#blc {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-com-button.png');
+background-size: 100% 100%;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-com-button.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/b-l-com-button.png',
+  sizingMethod='scale')";
+}
+
+#as {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/traditional-button.png');
+background-size: 100% 100%;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/traditional-button.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/traditional-button.png',
+  sizingMethod='scale')";
+}
+
+/******level 2 blocks*********/
+
+.level-2 {
+width: 0px;
+height: 50px;
+margin-left:116px;
+margin-left: 230px\0/;
+border-top-left-radius:0pc;
+border-top-right-radius:1pc;
+border-bottom-left-radius:0pc;
+border-bottom-right-radius:1pc;
+box-shadow:4px 0px 4px white,4px 0px 10px blue;
+cursor: hand;
+cursor: pointer;
+background-color:#fff;
+}
+
+/*********79098********************/
+#blh {
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-120x50.png');
+ background-size: 100% 100%;
+ position:absolute;
+ 
+ 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-120x50.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-120x50.png',
+  sizingMethod='scale')";
+ }
+ 
+ .level-2.blh-active, .level-3.blh-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png')!important;
+ height:100px;
+ z-index:11;
+ 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png',
+  sizingMethod='scale')";
+  }
+/*********79099********************/ 
+#blo {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-120x50.png');
+background-size: 100% 100%;
+margin-top: 50px;
+ position:absolute;
+ 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-120x50.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-120x50.png',
+  sizingMethod='scale')";
+    }
+ 
+ .level-2.blo-active, .level-3.blo-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-block.png')!important;
+ margin-top:0px!important;
+ height:100px;
+  z-index:11;
+   position:absolute;
+  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-block.png',
+  sizingMethod='scale')";
+  }
+ /*********79106********************/
+ #bldh {
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79106-120x50.jpg');
+ background-size: 100% 100%;
+ position:absolute;
+  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79106-120x50.jpg',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79106-120x50.jpg',
+  sizingMethod='scale')";
+  
+ }
+ 
+ .level-2.bldh-active, .level-3.bldh-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79106-block.png')!important;
+ height:100px;
+ z-index:11;
+ position:absolute;
+  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79106-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79106-block.png',
+  sizingMethod='scale')";
+   }
+/*********79107********************/ 
+#bldo {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79107-120x50.jpg');
+background-size: 100% 100%;
+margin-top:50px;
+ position:absolute;
+   
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79107-120x50.jpg',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79107-120x50.jpg',
+  sizingMethod='scale')";
+  
+ }
+ 
+ .level-2.bldo-active, .level-3.bldo-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79107-block.png')!important;
+ margin-top:0px!important;
+ height:100px;
+  z-index:11;
+   position:absolute;
+   
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79029-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79029-block.png',
+  sizingMethod='scale')";
+    } 
+	
+/*******************************************
+	Blue Lightning Aluminum Flexible Rods
+********************************************/
+/*********79118********************/
+#blah {
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-120x50.png');
+ background-size: 100% 100%;
+ position:absolute;
+ 
+ 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-120x50.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-120x50.png',
+  sizingMethod='scale')";
+ }
+ 
+ .level-2.blah-active, .level-3.blah-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png')!important;
+ height:100px;
+ z-index:11;
+ 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png',
+  sizingMethod='scale')";
+  }
+
+ /*********79119********************/ 
+#blao {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-120x50.png');
+background-size: 100% 100%;
+margin-top: 50px;
+ position:absolute;
+ 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-120x50.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-120x50.png',
+  sizingMethod='scale')";
+    }
+ 
+ .level-2.blao-active, .level-3.blao-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-block.png')!important;
+ margin-top:0px!important;
+ height:100px;
+  z-index:11;
+   position:absolute;
+  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79099-block.png',
+  sizingMethod='scale')";
+  }
+ 
+/*********Traditional Aluminum Rods *****************/
+ /*********79095********************/
+ #ash {
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79095-120x50.png');
+ background-size: 100% 100%;
+ position:absolute;
+   
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79095-120x50.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79095-120x50.png',
+  sizingMethod='scale')"; 
+  }
+ 
+ .level-2.ash-active, .level-3.ash-active {
+  background-color:#fff;
+  background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79095-block.png')!important;
+  height:100px;
+  z-index:11;
+   position:absolute;
+   
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79095-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79095-block.png',
+  sizingMethod='scale')"; 
+   }
+/*********79094********************/ 
+#aso {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79094-120x50.png');
+background-size: 100% 100%;
+margin-top:50px;
+ position:absolute;
+ 
+   
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79094-120x50.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79094-120x50.png',
+  sizingMethod='scale')"; 
+ }
+ 
+ .level-2.aso-active, .level-3.aso-active {
+ background-color:#fff;
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79094-block.png')!important;
+ margin-top:0px!important;
+ height:100px;
+  z-index:11;
+   position:absolute;
+   
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79094-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79094-block.png',
+  sizingMethod='scale')"; 
+  } 
+  
+ /***********level-3 blocks*********/
+ 
+.level-3 {
+ width:120px;
+ height: 50px;
+ margin-left:116px;
+ margin-left: 230px\0/;
+ border-top-left-radius:0pc;
+ border-top-right-radius:1pc;
+ border-bottom-left-radius:0pc;
+ border-bottom-right-radius:1pc;
+ box-shadow:4px 0px 4px white,4px 0px 10px blue;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+cursor: hand;
+cursor: pointer;
+background-color:#fff;
+}
+   
+ #blch {
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png');
+ background-size: 100% 100%;
+ height: 100px;
+ width:0px;
+ z-index:11;
+ position:absolute;
+    
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/79098-block.png',
+  sizingMethod='scale')"; 
+  }
+
+
+/***********************************************************************************************
+								Iphone 4 & 5 Portrait
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+	#side-bar{
+	 margin-top:30px;
+	 margin-left:-20px;
+	}
+	
+	#menu-container {
+	 height: 900px;
+	 width:400px;
+	}
+	
+	#menu-slider {
+	 margin-top:20px;
+	}
+
+	#product-select-up-arrow, #product-select-down-arrow {
+	 display:none;
+	}
+	
+	.menu-text {
+	 display:none;
+	}
+	
+	.level-1 {
+	 width: 320px;
+	 height: 154px;
+     margin: 10px;
+	} 
+/******level 2 blocks*********/
+
+	.level-2 {
+	 width: 0px;
+	 height: 77px;
+	 margin-left:320px;
+	}
+ 
+	.level-2.blh-active, .level-3.blh-active {
+	 height:154px;
+	}
+/*********79099********************/ 
+	#blo {
+	 margin-top: 77px;
+	} 
+	.level-2.blo-active, .level-3.blo-active {
+	 margin-top:0px!important;
+	 height:154px;
+	}
+
+	.level-2.bldh-active, .level-3.bldh-active {
+	 height:154px;
+	}
+/*********79029********************/ 
+	#bldo {
+	 margin-top:77px;
+	}
+ 
+	.level-2.bldo-active, .level-3.bldo-active {
+	 margin-top:0px!important;
+	 height:154px;
+    } 
+/*********Traditional Aluminum Rods *****************/
+ /*********79026********************/
+ 
+	.level-2.ash-active, .level-3.ash-active {
+	 height:154px;
+	}
+/*********79029********************/ 
+	#aso {
+	 margin-top:77px;
+	}
+ 
+	.level-2.aso-active, .level-3.aso-active {
+	 margin-top:0px!important;
+	 height:154px;
+	} 
+  
+ /***********level-3 blocks*********/
+ 
+	.level-3 {
+	 width:120px;
+	 height: 77px;
+	 margin-left:320px;
+	}
+ 
+	#afh {
+	 height: 154px;
+	 width:0px;
+	}
+  
+	#blch {
+	 height: 154px;
+	 width:0px;
+	}
+  
+/**** footer **************/
+	.f-nav-item {
+	 font-size:8px;
+	 padding:8px 0px;
+	}
+	
+ }
+ 
+ /***********************************************************************************************
+								Iphone 4 & 5 Landscape
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+	
+	.level-1 {
+	 width: 240px;
+	 height: 90px;
+     margin: 10px;
+	} 
+
+	.level-2, .level-3 {
+ 	 height: 44px;
+     margin-left:240px;
+	}
+
+	#menu-container {
+	 height: 410px;
+	 margin-top:10px;
+	}	
+	
+	#side-bar{
+	 margin-top:30px;
+	 margin-left:0px;
+	}
+	
+	#menu-slider {
+	 margin-top: -84px;
+	}
+	
+	/******level 2 blocks*********/
+ 
+	.level-2.blh-active, .level-3.blh-active {
+	 height:90px;
+	}
+/*********79099********************/ 
+	#blo {
+	 margin-top: 44px;
+	} 
+	.level-2.blo-active, .level-3.blo-active {
+	 margin-top:0px!important;
+	 height:90px;
+	}
+
+	.level-2.bldh-active, .level-3.bldh-active {
+	 height:90px;
+	}
+/*********79029********************/ 
+	#bldo {
+	 margin-top:44px;
+	}
+ 
+	.level-2.bldo-active, .level-3.bldo-active {
+	 margin-top:0px!important;
+	 height:90px;
+    } 
+/*********Traditional Aluminum Rods *****************/
+ /*********79026********************/
+ 
+	.level-2.ash-active, .level-3.ash-active {
+	 height:90px;
+	}
+/*********79029********************/ 
+	#aso {
+	 margin-top:44px;
+	}
+ 
+	.level-2.aso-active, .level-3.aso-active {
+	 margin-top:0px!important;
+	 height:90px;
+	} 
+  
+ /***********level-3 blocks*********/
+ 
+	#afh {
+	 height: 90px;
+	 width:0px;
+	}
+  
+	#blch {
+	 height: 90px;
+	 width:0px;
+	}
+  
+/**** footer **************/
+	.f-nav-item {
+	 font-size:7px;
+	 padding:8px 0px;
+	}
+
+}
+ 
+/***********************************************************************************************
+								Iphone 5 Landscape
+************************************************************************************************/  
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : landscape) { 
+
+	.level-2, .level-3 {
+		margin-left:120px;
+	}
+
+}
+  /***********************************************************************************************
+								Iphone 5  Portrait
+************************************************************************************************/  
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : portrait) {
+
+	.level-2, .level-3 {
+	 margin-left:160px;
+	}
+}
+
+  /***********************************************************************************************
+								Iphone 4  LandScape
+************************************************************************************************/  
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : landscape) {
+	#footer {
+	 margin-left: -26px;
+	}
+
+}

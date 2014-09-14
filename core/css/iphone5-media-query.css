@@ -1,0 +1,99 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+body {
+ background-size:1000px 1100px!important;
+}
+
+#header {
+ margin-top:100px;
+}
+
+#header-logo {
+ width:600px;
+ height:110px;
+ border-radius:4pc;
+ margin-left:20px;
+ padding-left:10px;
+ background:#0d60b5;
+}
+
+#social {
+ height:80px;
+ margin:40px;
+}
+
+.sm-link {
+ width:60px!important;
+ height:60px!important;
+ padding:0px 30px; 
+ border-radius:1pc;
+}
+
+#nav li {
+ font-size:27px;
+ padding:50px 9px;
+}
+
+#order-tab {
+ padding:50px 10px!important;
+}
+
+#nav {
+ margin-top:80px;
+ margin-left:-6px;
+ }
+
+#content {
+ height:900px;
+}
+
+#center-content {
+ margin:10px 36px;
+ width:960px;
+}
+
+#meat-n-bones {
+ width:860px;
+}
+
+#default-main {
+ width:760px;
+ height:400px;
+ padding:50px;
+ margin:50px 26px;
+}
+
+#left-arrow,
+#right-arrow {
+ margin-top:14%!important;
+ height:370px!important;
+ width:20px!important;
+}
+
+#left-arrow {
+ margin-left:0px;
+}
+
+#right-arrow {
+ margin-left:916px!important;
+}
+
+#fp-buy {
+ margin-top:130px!important;
+ font-size:24px;
+}
+
+.fp-buy-image {
+ width:100px!important;
+ height:40px!important;
+ margin:-40px 140px!important;
+}
+
+#nav-dots-container a {
+ font-size:24px;
+}
+
+}

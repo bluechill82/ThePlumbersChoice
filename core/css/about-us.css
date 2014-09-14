@@ -1,0 +1,74 @@
+#about-us-page {
+ height:100%;
+}
+
+#about-us-content {
+background: rgba(255,255,255,.8);
+border-radius: 1pc;
+box-shadow: 0px 0px 10px blue;
+width: 600px;
+height: 200px;
+padding: 0px 10px;
+}
+
+#about-us-content h1 {
+color: blue;
+text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#about-us, #about-us a {
+ height:75%;
+ color: blue;
+ font-weight: bold;
+ text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+}
+
+#about-us-slide-one {
+ height:100%;
+}
+
+#about-us #content-block #meat-n-bones #default-main {
+ background-image:url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/about-location.jpg');
+ background-size:100% 100%;
+ cursor:default;
+ 
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/about-location.jpg',
+  sizingMethod='scale');
+ -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/about-location.jpg',
+  sizingMethod='scale')";
+}
+
+
+/***********************Iphone 5 Portrait Fix********************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+ #about-us-content h1 {
+ font-weight:60px;
+}
+
+#about-us, #about-us a {
+ font-size:20px;
+ height:300px;
+}
+
+#about-us-content {
+width: 600px;
+height: 300px;
+padding: 0px 10px;
+}
+}
+
+/***********************Iphone 5 Landscape Fix********************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+	#nav-dots {
+	 display:none;
+	}
+	
+}

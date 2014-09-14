@@ -1,0 +1,418 @@
+::-webkit-scrollbar {
+    width: 16px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,255,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 16px rgba(0,0,255,0.5); 
+}
+
+#order-now-page {
+ height:100%;
+}
+
+#order-now {
+ height:100%;
+ color: blue;
+ font-weight: bold;
+ }
+
+#order-now-slide-one {
+ height:100%;
+}
+
+#cart-items {
+ margin-top: 20px;
+ padding: 0px 9px;
+ height:490px;
+ overflow-x:hidden;
+ border-bottom:1px dotted grey;
+ border-radius: 11px;
+ box-shadow: 0px 0px 30px blue;
+ margin-left: 12px;
+ width: 700px;
+}
+
+.cart-row {
+ height: 152px;
+ border-bottom:1px dotted grey;
+ background: rgba(255,255,255,.5);
+ border-radius: 1pc;
+ margin-top: 10px;
+}
+
+.cart-row:hover {
+  box-shadow:0px 0px 20px blue;
+}
+
+.cart-row h2 {
+font-family: "arial,sans-serif";
+color: blue;
+height: 38px;
+border-radius: 1pc;
+padding: 4px 10px;
+}
+
+#left-cart-block {
+ float:left;
+ height: 98px;
+ width: 340px;
+ margin-top:4px;
+ border-bottom-left-radius: 1pc;
+ border-bottom-right-radius: 1pc;
+}
+
+#left-cart-block:hover {
+ box-shadow: 5px 5px 30px white, 10px 10px 30px blue;
+ background: rgba(255,255,255,.7);
+}
+
+.left-product-detail {
+ display:block;
+ position:absolute;
+ margin: 4px 140px;
+ padding:4px;
+}
+
+.left-product-detail:hover {
+ text-shadow:0px 0px 2px yellow;  
+ box-shadow:0px 0px 20px blue;
+ border-bottom-right-radius:1pc;
+ border-bottom-left-radius:1pc;
+ background:#fff;
+ cursor:pointer;
+}
+
+.right-product-detail {
+ display:block;
+ position:absolute;
+ margin: 4px 430px;
+ padding:4px;
+ width:110px;
+}
+
+
+.right-product-detail:hover {
+ text-shadow:0px 0px 2px yellow;  
+ box-shadow:0px 0px 20px blue;
+ border-bottom-right-radius:1pc;
+ border-bottom-left-radius:1pc;
+ background:#fff;
+ cursor:pointer;
+}
+
+.left-cart-hover {
+ box-shadow: 5px 5px 30px white, 10px 10px 30px blue!important;
+ background: rgba(255,255,255,.7)!important;
+}
+
+.right-cart-hover {
+ box-shadow: -5px 5px 30px white, -10px 10px 30px blue!important;
+ background: rgba(255,255,255,.7)!important;
+}
+
+#right-cart-block {
+ float:right;
+ height: 98px;
+ width: 340px;
+ margin-top:4px;
+ border-bottom-left-radius: 1pc;
+ border-bottom-right-radius: 1pc;
+}
+ 
+#right-cart-block:hover {
+ box-shadow: -5px 5px 30px white, -10px 10px 30px blue;
+ background:rgba(255,255,255,.7);
+ height: 100px;
+}
+ 
+#cart-offer-text {
+font-size: 12px;
+color: black;
+float: left;
+padding: 4px;
+background: rgba(255,255,255,.5);
+margin-top: 20px;
+border-radius: 1pc;
+ }
+ 
+#paypal-left {
+float: left;
+color: black;
+margin-top: 28px;
+margin-left:4px;
+ }
+ 
+#paypal-right {
+float: right;
+color: black;
+margin-top: 28px;
+margin-right:4px;
+ }
+ 
+#productid {
+  margin-top:4px;
+ }
+ 
+#add-to-cart-button {
+  border-radius:1pc;
+  height:20px;
+ }
+ 
+#paypal-form {
+ margin-top: -10px;
+}
+
+#cart-brand, #cart-title {
+ font-size:20px;
+}
+
+#cart-title-2 {
+ margin-top: -2px;
+ display: block;
+}
+
+#title-line-2 {
+ font-size:14px;
+ margin:-2px;
+ display:block;
+ text-decoration: underline;
+}
+
+#cart-79098, #cart-79106, #cart-79096, #cart-79118, #cart-79095 {
+height: 90px;
+float: left;
+border-radius: 1pc;
+box-shadow: 0px 0px 10px white, 0px 0px 30px blue;
+margin: 4px;
+}
+
+#cart-79099, #cart-79107, #cart-79094, #cart-79119 {
+height: 90px;
+float: right;
+border-radius: 1pc;
+box-shadow: 0px 0px 10px white, 0px 0px 30px blue;
+margin: 4px;
+}
+
+#not-avaliable {
+ font-size: 14px;
+ margin: 40px 18px;
+ display:block;
+ color:black;
+}
+
+#product-title {
+ height: 50px;
+ border-top-right-radius:1pc;
+ border-top-left-radius:1pc;
+ background:rgba(255,255,255,.5); 
+}
+
+.cart-row:hover #product-title {
+ box-shadow:0px 4px 10px blue;
+ background:rgba(255,255,255,.8);
+}
+
+#cart-row-2 #product-title {
+ height:70px;
+ }
+ 
+ #cart-row-2 {
+  height:172px;
+ }
+
+#paypal-checkout-button {
+ margin: 2px;
+}
+#view-cart {
+ border-radius:1pc;
+ }
+ /***********************************************************************************************
+								Iphone 4 & 5 Portrait
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	#cart-items {
+	 margin-top: 40px;
+	 height:780px;
+	 margin-left: -12px;
+	 width: 930px;
+	}	
+
+	.cart-row {
+	 box-shadow:0px 0px 10px white, 0px 0px 10px blue;
+	 height: 250px;
+	 margin-top: 10px;
+	}	
+
+	#cart-row-2 {
+	  height:270px;
+	 }
+	
+	#product-title {
+	 height: 70px;
+	}
+	
+	.cart-row h2 {
+	 height: 70px;
+	}
+		
+	#cart-row-2 h2 {
+	 height: 90px;
+	}
+	
+	#cart-row-2 #product-title {
+	 height:90px;
+	}
+	
+	#left-cart-block {
+	 height: 180px;
+	 width: 450px;
+	 margin-top:0px;
+	 background:rgba(0,0,0,.1);
+	 }	
+	
+	.left-product-detail {
+	 margin: 0px 10px;
+	 font-size:30px;
+	}
+	
+	.right-product-detail {
+	 margin: 0px 698px;
+	 font-size:30px;
+	 width:200px
+	}
+	
+	#right-cart-block {
+	 height: 180px;
+	 width: 450px;
+	 margin-top:0px;
+	 background:rgba(0,0,0,.1);
+	}
+	
+	#right-cart-block:hover {
+	 height: 180px;
+	}
+	
+	#paypal-left {
+	 position:absolute;
+	 margin-top: 6px;
+	 margin-left:230px;
+	 width:200px;
+	}
+ 
+	#paypal-right {
+	 position:absolute;
+	 margin-top: 6px;
+	 margin-right:220px;
+	}
+	
+	#productid {
+	 font-size:24px!important;
+	 font-weight:bold;
+	}
+	
+	#add-to-cart-button {
+	 height:40px;
+	 margin-top:10px;
+	}
+	
+	#paypal-quanity {
+	 font-size:18px;
+	 width:200px;
+	 height:36px;
+	 margin-top:10px;
+	 }
+	 
+	 #cart-brand, #cart-title {
+	 font-size:30px;
+	}
+	
+	#title-line-2 {
+	 font-size:20px;
+	}
+
+	
+	#not-avaliable {
+	 font-size: 36px;
+	}
+	
+	#cart-79098, #cart-79106, #cart-79096, #cart-79093, #cart-79095 {
+	 height: 110px;
+	 margin: 50px;
+	}
+
+	#cart-79099, #cart-79107, #cart-79094 {
+	 height: 110px;
+	 margin: 50px;
+	}
+	
+	#view-cart {
+	 height:50px;
+	 margin-top:16px;
+	 border-radius:1pc;
+	 }
+	
+	#footer {
+	 margin-top:10px!important;
+	}
+		
+	.f-nav-item {
+	 font-size:9px!important;
+	}
+	
+}
+
+/***********************Iphone 4 Fix********************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : portrait) { 
+
+	#center-content {
+	 width:1010px;
+	 padding-right:10px;
+	}
+
+	.jspVerticalBar
+	{
+	 width: 20px;
+	}
+
+}
+
+/***********************************************************************************************
+								Iphone 4 & 5 Portrait
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+	#content {
+	 height:510px;
+	}
+
+	#cart-items {
+	 margin-top: 30px;
+	 height:450px;
+	 margin-left: -12px;
+	}	
+	
+	#right-cart-block, #left-cart-block {
+	 background:rgba(0,0,0,.1);
+	}
+		
+	#footer {
+	 margin-top:0px!important;
+	}
+		
+	.f-nav-item {
+	 font-size:8px!important;
+	}
+} 

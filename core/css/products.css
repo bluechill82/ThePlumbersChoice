@@ -1,0 +1,541 @@
+/********General Styles***************/
+#logo {
+margin-top: -136px;
+height: 54px;
+width: 384px;
+}
+
+#wrapper {
+width: 960px;
+height: 140px;
+margin: 0 auto;
+background: url(..https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/wrapper-bkg.png) center top no-repeat;
+}
+
+#body-container {
+ width: 484px;
+ height: 550px;
+ position: absolute;
+ z-index:0;
+ overflow:hidden;
+ padding: 20px 0px 0px 255px;
+ text-align:center;
+}
+
+.product {
+ margin-top:20px;
+ width: 480px;
+ height: 780px;
+ position: absolute;
+}
+
+.product h1{
+ font-size:12px;
+ margin-top:-20px;
+ float:left;
+ margin-left:8px;
+}
+
+.ebay-image {
+height: 20px;
+width: 100px;
+border-radius:1pc;
+}
+
+/*********Offer**********/
+#offer-frame {
+width: 200px;
+margin-top: -86px;
+position: absolute;
+margin-left: 240px;
+}
+
+#offer {
+ background-size: 100% 100%;
+ color:black;
+ font-size:10px;
+ background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/offer-back.png');
+ position:absolute;
+ margin-top: 62px;
+ margin-left:0px;
+ height:200px;
+ width:200px;
+}
+
+#offer-text {
+  margin-top:56px;
+}
+
+#offer-180px, #offer-79106, #offer-79107, .offer-180px, .offer-79106, .offer-79107 {
+ border-bottom-left-radius:4pc;
+ border-bottom-right-radius:0pc;
+ border-top-left-radius:4pc;
+ border-top-right-radius:0pc;
+ box-shadow:0px 0px 10px red;
+ color:black;
+ font-size:10px;
+ background-color:yellow;
+ padding-left:41px;
+ padding-top:4px;
+ position:relative;
+ margin-top: -130px;
+  margin-top: -190px\0/;
+
+ animation-name: slideIn;
+ animation-iteration-count: once;
+ animation-timing-function: ease-in;
+ animation-duration: 8s;
+
+ -moz-animation-name: slideIn;
+ -moz-animation-iteration-count: once;
+ -moz-animation-timing-function: ease-in;
+ -moz-animation-duration: 8s;
+
+ -webkit-animation-name: slideIn;
+ -webkit-animation-iteration-count: once;
+ -webkit-animation-timing-function: ease-in;
+ -webkit-animation-duration: 8s;
+}
+@keyframes slideIn {
+    0% {
+        right: -200px;
+    }
+    50% {
+        right: 0;
+    }
+}
+
+@-moz-keyframes slideIn {
+    0% {
+        right: -200px;
+    } 
+    50% {
+        right: 0;
+    }
+}
+@-webkit-keyframes slideIn {
+    0% {
+        right: -200px;
+    }
+    50% {
+        right: 0;
+    }
+}
+
+
+.offer-l1 {
+  color:black;
+}
+
+.offer-l2 {
+  color:red;
+  font-size:12px;
+  font-weight:bold;
+  text-shadow:0px 0px 10px orange;
+}
+
+.offer-l3 {
+  font-weight:bold;
+  color:black;
+}
+
+.offer-l4 {
+  color:black;
+}
+
+.offer-l5 {
+  color:blue;
+}
+
+.offer-l6 {
+ color:black;
+}
+
+.offer-l7 {
+ color:black;
+}
+
+.offer-l8 {
+ color:red;
+ font-weight:bolder;
+ font-size:15px;
+ text-shadow:0px 0px 10px orange;
+}
+
+#ebay {
+ margin:0px 12px;
+ position:absolute;
+ padding:10px;
+ font-size:16px;
+ color:blue;
+ font-weight:bold;
+ text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 30px blue;
+ text-align:center;
+ margin-top: 100px;
+ z-index:10;
+}
+
+.single-price {
+ margin-top:60px;
+}
+
+#art-3 #ebay, #art-4 #ebay {
+ margin:114px 14px;
+}
+
+#art-5 #ebay, #art-6 #ebay, #art-7 #ebay{
+  margin:90px 130px;
+}
+
+#art-5 h1, #art-6 h1, #art-7 h1{
+  margin:-10px 120px;
+}
+
+.bl-products-logo {
+  position: absolute;
+  background-image:url(https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/blue-lightning-logo.png);
+  background-size:100% 100%;
+  color:transparent;
+  height: 50px;
+  width: 210px;
+  box-shadow:4px 0px 8px white,4px 0px 20px blue;
+  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/blue-lightning-logo.png',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/blue-lightning-logo.png',
+  sizingMethod='scale')";
+}
+
+#art-image {
+ box-shadow:4px 0px 20px white,4px 0px 20px blue;
+ background-color: rgba(255,255,255,.9);
+ margin-top: 180px;
+ border-radius: 1pc;
+ width: 400px;
+ height:50px;
+}
+
+.bl-products-title {
+ position:absolute;
+ height:130px;
+ margin: 60px 10px;
+ color:blue;
+ font-size: 14px;
+ font-weight:bold;
+ text-shadow:-1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+ font-family: "arial,sans-serif";
+}
+
+#bl-products-title-model {
+ font-size: 14px;
+}
+
+#art-1-text, #art-2-text, #art-3-text, #art-4-text, #art-5-text, #art-6-text, #art-7-text, #art-8-text  {
+ margin-top:0px;
+ position:absolute;
+ padding:10px;
+ font-size: 14px;
+ color:blue;
+ font-weight:bold;
+ text-shadow:-1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+ background-color: rgba(255,255,255,.6);
+}
+
+#up-arrow {
+width: 60px;
+height: 40px;
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/up.png');
+background-size: 100% 100%;
+margin: 204px 350px;
+position: absolute;
+cursor: hand;
+cursor: pointer;
+}
+
+#up-arrow:hover {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/up-hover.png');
+}
+
+#down-arrow {
+width: 60px;
+height: 40px;
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/blue-down.png');
+background-size: 100% 100%;
+margin: 204px 50px;
+position: absolute;
+cursor: hand;
+cursor: pointer;
+}
+
+#down-arrow:hover {
+background-image: url('https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/down-hover.png');
+}
+
+#line1-slider, #line1-slider-2, #line1-slider-3 {
+ margin-top: 34px;
+}
+
+.line-slider {
+ color:red;
+ text-shadow:0px 0px 10px yellow, 0px 0px 20px orange, 0px 0px 30px red;
+ font-size:20px;
+ margin-bottom:10px;
+ margin-left:-1300px;
+ margin-top:10px;
+ padding:0px 30px;
+ } 
+
+ .brand {
+  position:absolute;
+  z-index:-1;
+ }
+ 
+ #art-5 .brand, #art-6 .brand, #art-7 .brand {
+   margin-left:0px;
+ }
+ 
+ #text-box {
+ position:absolute;
+ z-index:2;
+ height:180px;
+ width:470px;
+ margin:20px 0px;
+ overflow:hidden;
+ border-radius:1pc;
+ box-shadow:0px 0px 8px white,0px 0px 10px blue;
+ }
+ 
+ 
+ /***********************************************************************************************
+								Iphone 4 & 5 Portrait
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	#body-container {
+	 width:700px;
+	 height:1100px;
+	}
+	
+	.product {
+	 margin:50px 120px;
+	}
+	
+	.bl-products-logo {
+	 height: 100px;
+	 width: 310px;
+	}
+
+	#offer {
+	 font-size:14px;
+	 margin-top: 100px;
+	 margin-left:70px;
+	 height:270px;
+	 width:270px;
+	}
+	
+	#offer-text {
+	 margin-top:76px;
+	}
+	
+	.offer-l2 {
+	 font-size:16px;
+	}
+	
+	.offer-l8 {
+	 font-size:18px;
+	}
+	
+	
+	.bl-products-title {
+	 height:160px;
+	 margin: 120px -10px;
+	 font-size: 24px;
+	}
+	
+		
+	#bl-products-title-model {
+	 font-size: 20px;
+	 }
+	 
+	 	
+	#bl-products-title-number {
+	 font-size: 18px;
+	 }
+	 
+	#ebay {
+	 margin-left:30px;
+	 font-size:18px;
+	 margin-top: 200px;
+	}
+
+	.ebay-image {
+	 height: 40px;
+	 width: 150px;
+	 border-radius:1pc;
+	}
+	
+	.quanity-select {
+	 height:40px;
+	 font-size:18px;
+	}	
+	
+	#art-3 #ebay, #art-4 #ebay {
+	 margin:220px 24px;
+	}
+
+	#art-5 #ebay {
+	 margin:186px 150px;
+	}
+	
+	#art-6 #ebay, #art-7 #ebay{
+	 margin:186px 170px;
+	}
+
+	#art-6 .bl-products-logo, #art-7 .bl-products-logo{
+	 margin-left:30px;
+	}
+	
+	#art-6 .brand, #art-7 .brand {
+	 margin-left:30px;	
+	}
+		
+	#art-image {
+	 margin-top: 320px;
+	 margin-left:30px;
+	 width: 500px;
+	 height:70px;
+	}
+	
+	#text-box {
+	 height:360px!important;
+	 width:500px;
+	 margin:160px 30px;
+	}
+	
+	#art-1-text, #art-2-text, #art-5-text, #art-6-text, #art-7-text, #art-8-text  {
+	 font-size:22px;
+	}
+ 	
+	 #art-3-text, #art-4-text {
+	  font-size:17px;
+	 }
+	 
+	#down-arrow, #up-arrow {
+	 margin-top:380px!important;
+	 width: 170px;
+	 height: 70px!important;
+	}
+	
+	 /*** 79093 ***/
+	#art-5 .product,#art-6 .product,  #art-7 .product {
+	 margin-top:60px;
+	}
+
+	#art-5-text p, #art-6-text p, #art-7-text p {
+	 margin-top:66px;
+	 font-size:8px!important;
+	}
+	
+	.line-slider {
+	 font-size:26px;
+	 margin-bottom:20px;
+	 margin-top:20px;
+	 padding:0px 6px;
+	} 
+}
+
+/***********************************************************************************************
+								Iphone 4 & 5 Landscape
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+	#content {
+	 height:500px;
+	}
+	
+	.product {
+	 margin:10px;
+	}
+ 
+ 	#down-arrow, #up-arrow {
+	 margin-top:190px!important;
+	}
+ /*** center product alignment ***/
+	#art-5 .product, #art-6 .product, #art-7 .product {
+	 margin-top:30px;
+	}
+
+	#art-5-text p, #art-6-text p, #art-7-text p {
+	 font-size:8px!important;
+	}
+	
+	#line1-slider, #line1-slider-2, #line1-slider-3 {
+	 margin-top: 0px;
+	}
+	
+	.line-slider {
+	 font-size:14px;
+	 margin-bottom:10px;
+	 margin-top:10px;
+	 padding:0px 6px;
+	} 
+		
+	#art-6 #ebay, #art-7 #ebay{
+	 margin-left: 136px;
+	}
+
+	
+}	
+
+/***********************Iphone 4 Fix********************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : landscape) { 
+	#art-1-text, #art-2-text, #art-3-text, #art-4-text, #art-5-text, #art-6-text, #art-7-text, #art-8-text  {
+	 font-size:14px;
+	}
+}
+
+/***********************Iphone 4 Fix********************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : portrait) { 
+	#art-1-text, #art-2-text,#art-5-text, #art-6-text, #art-7-text, #art-8-text  {
+	 font-size:18px;
+	}
+	
+	 #art-3-text, #art-4-text {
+	  font-size:17px;
+	 }
+}
+
+
+/***********************Iphone 5 Fix********************/
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : portrait) { 
+	.product {
+	 margin:20px 110px;
+	}
+ 
+	#down-arrow, #up-arrow {
+	 margin-top:380px!important;
+	 width: 140px;
+	 height: 50px!important;
+	}
+	
+	#art-1-text, #art-2-text, #art-5-text, #art-6-text, #art-7-text, #art-8-text  {
+	 font-size:20px;
+	}
+	
+	#art-5 .product, #art-6 .product, #art-7 .product {
+	 margin-top:40px;
+	}
+
+	#footer {
+	margin-top:10px!important;
+	}
+}

@@ -1,0 +1,548 @@
+/***************************************/
+/******Water Heater Manuals*************/
+
+/**********Classy Page Layout Junk************/
+#water-heater-owner-manuals-page {
+ height:100%;
+}
+
+#water-heater-owner-manuals{
+ height:75%;
+}
+
+#water-heater-owner-manual {
+ height:100%;
+}
+
+#water-heater-owner-manual-bottom {
+ height:25%
+}
+
+/**********Vender Select**************/
+#vender-select {
+ float:right;
+ height:100%;
+ width:59.9%;
+}
+
+#vender-select-container {
+ width:100%;
+ height:100%;
+ background-color:rgba(7,93,178,.25);
+}
+
+#vender-select-four {
+margin-top: -20px;
+}
+
+.slider-pane {
+width: 13.1%;
+height: 97%;
+display: inline-block;
+font-family: 'Damion', cursive;
+border-radius:1pc;
+text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+box-shadow: 0px 0px 10px #0057b1;
+ 
+ background: -webkit-linear-gradient(white, #6699ff); /* For Safari */
+ background: -o-linear-gradient(white, #6699ff); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #6699ff); /* Standard syntax (must be last) */
+}
+
+.slider-pane:hover {
+ box-shadow:0px 0px 30px #0057b1; 
+ background: #84B1E0;
+ background: -webkit-linear-gradient(white, #0258b2)!important; /* For Safari */
+ background: -o-linear-gradient(white, #0258b2)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #0258b2)!important; /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #0258b2)!important; /* Standard syntax (must be last) */
+}
+
+#rheem-water-heaters, #ruud-water-heaters, #reliance-water-heaters, #ao-smith-water-heaters, #american-water-heaters, #state-water-heaters {
+ display: block;
+ padding: 40px 0px;
+ cursor: pointer;
+ font-size:15px\0/;
+}
+
+#bradford-white-water-heaters {
+ padding: 18px 0px 40px;
+ display: block;
+ cursor: pointer;
+ font-size:15px\0/;
+}
+
+#ao-smith-water-heaters {
+ margin-top: -22px;
+ margin-top: 0px\0/;
+}
+/****Guts of the Bulk BS***************/
+
+#static-h1, #water-heater-owner-manuals-content h1 {
+color: blue;
+text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#water-heater-owner-manuals-content p, #water-heater-owner-manuals-content ul{
+ color:blue;
+ text-shadow:-1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+ float: left;
+ display: inline;
+ color: #000;
+}
+
+#water-heater-owner-manuals-content li{
+ float:left;
+}
+
+/******note effects*************/
+
+.note {
+color: red;
+text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px red;
+border-radius: 1pc;
+padding: 4px;
+}
+
+#reliance-note-1 {
+ float: left;
+ width: 350px;
+ margin: 30px 160px;
+}
+
+#ruud-content, #ao-smith-content, #reliance-content, #state-content {
+ height:360px;
+ width: 690px;
+ overflow-y:scroll; 
+}
+
+#ao-smith-content {
+ padding-bottom:50px;
+}
+
+#page-number {
+float: right;
+margin: -60px 40px;
+color: blue;
+text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+/***********Ruud Manual Page One *****************/
+.p1h3 {
+ font-size:20px;
+ text-align:center;
+ font-weight:bold;
+}
+
+.p1h2 {
+ font-size:18px;
+ font-weight:bold;
+}
+
+.p1h1 {
+ font-size:22px;
+}
+
+.p1ol {
+ text-align:left;
+ font-size:14px;
+}
+
+.p1p1 {
+ font-size:14px;
+}
+
+.p1ol {
+ list-style-type:decimal;
+ list-style-position:inside;
+ margin-left:10px;
+}
+
+.p1-p2 {
+ font-size:14px;
+}
+
+.p1h2-1 {
+ font-size:18px;
+ width:260px;
+}
+
+.p1-p3 {
+ font-size:14px;
+ width: 300px!important;
+ float: left;
+ margin-left:30px;
+}
+
+#porcelain-lining {
+ width: 300px;
+ float:right;
+ margin-right: 30px;
+ border-radius: 1pc;
+ box-shadow: 0px 0px 20px blue;
+ margin-top: 20px;
+}
+
+.p1-p4 {
+margin-top: 30px;
+margin-left: 10px;
+box-shadow: 0px 0px 20px blue;
+padding: 4px;
+border-radius: 1pc;
+width:290px;
+background:rgba(255,255,255,.9);
+}
+
+.p1-p5 {
+ margin:0px 30px!important;
+}
+
+.p1-p6 {
+ font-size:18px;
+}
+
+/***********Ruud Manual Page Two *****************/
+.p2h1, .p3h1  {
+ font-size:20px!important;
+}
+
+.p2-p1 {
+ width:400px;
+ padding:0px 30px;
+ text-align:left;
+}
+
+.p2-p2 {
+ margin-top:120px;
+ float:right;
+ width:120px;
+ background:rgba(255,255,255,.9);
+ border-radius:1pc;
+ padding:4px;
+ box-shadow:0px 0px 20px blue;
+}
+
+.p2-p3 {
+ position:absolute;
+ margin:310px -330px;
+ width:150px;
+ padding:4px;
+ border-radius:1pc;
+ box-shadow:0px 0px 10px blue;
+}
+
+.p2-p4 {
+ text-align:leftt;
+ width:500px;
+ margin-left:150px;
+}
+
+.p2-p5 {
+ margin:0px 30px;
+}
+
+#p2-image1 {
+ float:right;
+ height:250px;
+ width:50px;
+ margin:20px 10px;
+ border-radius:1pc;
+ box-shadow:0px 0px 10px blue;
+}
+
+#p2-image2 {
+ position:absolute;
+ height:250px;
+ width:50px;
+ margin: 350px -280px;
+ border-radius:1pc;
+ box-shadow:0px 0px 10px blue;
+}
+
+#p2-h1-2 {
+ margin:320px 0px 0px 130px;
+}
+
+/***********Ruud Manual Page Three *****************/
+.p3-p1 {
+ width: 600px;
+ margin-left: 34px;;
+}
+
+.p3-ol {
+ width:480px;
+ }
+
+ #alert {
+ color:red;
+ font-size:12px;
+ font-weight:bolder;
+ text-decoration:underline;
+ }
+ .p3-p3 {
+ margin:40px;
+ }
+ 
+ /***********H2 Effects for AO Smith and State************/
+#ao-smith-p1, #state-content h2 {
+font-size:20px;
+color: blue;
+text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+.note {
+ width:400px;
+margin-left:130px;
+color:red!important;
+text-shadow:none!important;
+font-weight:bolder;
+box-shadow:0px 0px 10px red,0px 0px 30px black;
+padding:10px;
+border-radius:1pc;
+}
+
+/***********************************************************************************************
+								Iphone 4 & 5 
+************************************************************************************************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 	
+/****Guts of the Bulk BS***************/
+
+	#static-h1 {
+	 font-size:64px;
+	 width:750px;
+	}
+
+	.slider-pane {
+	 margin-top:0px;
+	 margin-left:0px;
+	 height:210px;
+	}
+	
+	#rheem-water-heaters, #ruud-water-heaters, #reliance-water-heaters, #american-water-heaters, #state-water-heaters, #bradford-white-water-heaters, #ao-smith-water-heaters {
+	 font-size:20px;
+	 padding:0px;
+	 margin-top:48px;
+	}
+	
+	#bradford-white-water-heaters {
+	 margin-top:20px;
+	}
+	
+	#ruud-content, #ao-smith-content, #reliance-content, #state-content {
+	 margin:0px;
+	 height:520px;
+	 width:100%;
+	 overflow:hidden; 
+	 Overflow-x:hidden;
+	 box-shadow:1px 1px 20px blue,0px 0px 20px white;
+	}	
+	
+	#manuals-intro p {
+	 font-size:28px;
+	 width:700px;
+	 margin-left:70px;
+	}
+	
+/***********Ruud Manual Page One *****************/
+	.p1ol {
+	 font-size:14px;
+	 width:700px;
+	 margin-left:-20px;
+	 }
+
+	.p1p1 {
+	 font-size:12px!important;
+	 width:700px;
+	 margin-left:50px;
+	}
+
+	.p1ol {
+	 margin-left:10px;
+	}
+
+	.p1-p2 {
+	 font-size:14px;
+	 width:700px;
+	 margin-left:50px;
+	}
+
+	.p1h2-1 {
+	 position:absolute;
+	 font-size:18px;
+	 width:260px;
+	 margin:280px 500px;
+	}
+
+/***********Ruud Manual Page Two *****************/
+	.p2-p2 {
+	 width:200px;
+	 font-size:30px;
+	}
+
+	#p2-image1 {
+	 height:400px;
+	 width:100px;
+	 margin:20px 20px;
+	}
+
+	#p2-image2 {
+	 float:left;
+	 height:400px;
+	 width:100px;
+	 margin: 760px -330px;
+	}	
+	.p2-p3 {
+	 position:absolute;
+	 margin:660px -380px;
+	 width:200px;
+	 font-size:30px;
+	}
+	
+	#p2-h1-2 {
+	 position:absolute;
+	 margin:600px 0px 0px 480px!important;
+	 font-size:34px!important;
+	}
+
+	.p2-p4 {
+	 width:450px;
+	 margin-left:350px;
+	}
+
+/***********Ruud Manual Page Three *****************/	
+	.p3-p3 {
+	 margin-top:40px;
+	}
+	
+/*********************Reliance********************/
+	#reliance-content ul {
+	 width:650px;
+	 font-size:22px!important;
+	 text-align:left;
+	 margin-left:80px;
+	}
+
+	#reliance-note-1 {
+	 width: 600px;
+	 margin: 10px 120px;
+	 font-size:22px!important;
+	 }
+/*********************A O Smith********************/	 
+	#ao-smith-li1, #ao-smith-li2 {
+	 font-size:26px!important;
+	 width:650px;
+	 text-align:left;
+	 margin-left:30px;
+	}
+}
+/***********************************************************************************************
+								Iphone 4 & 5 Landscape
+************************************************************************************************/  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+	.slider-pane {
+	 margin-top:0px;
+	}
+
+	#rheem-water-heaters, #ruud-water-heaters, #reliance-water-heaters, #american-water-heaters, #state-water-heaters {
+	 padding: 40px 0px;
+	}
+
+	#bradford-white-water-heaters, #ao-smith-water-heaters {
+	 padding: 18px 0px 40px;
+	}
+
+	#ao-smith-water-heaters {
+	 margin-top:0px;
+	}
+	/****Guts of the Bulk BS***************/
+
+	#static-h1, #water-heater-owner-manuals-content h1 {
+	 font-size:44px;
+	}
+
+	#water-heater-owner-manuals-content p, #water-heater-owner-manuals-content ul{
+	 font-size:20px;
+	}
+	
+/*********   Ruud Page Two ***************/	
+	#p2-image2 {
+	 float:left;
+	 height:400px;
+	 width:100px;
+	 margin: 810px -310px;
+	}	
+	.p2-p3 {
+	 position:absolute;
+	 margin:740px -310px;
+	 width:100px;
+	}
+	
+	#p2-h1-2 {
+	 position:absolute;
+	 margin:720px 0px 0px 420px!important;
+	 font-size:34px!important;
+	}
+	
+}
+
+/***********************Iphone 4 Fix********************/
+/***************Portrait*******************************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : portrait) { 
+	#ao-smith-water-heaters {
+	 margin-top:20px!important;
+	}
+	
+	.slider-pane {
+	 margin-top:4px;
+	 height:220px;
+	}
+	
+	.p2h1, .p3h1  {
+	 font-size:30px!important;
+	}
+	
+	#p2-image2 {
+	 float:left;
+	 height:400px;
+	 width:100px;
+	 margin: 760px 90px;
+	}	
+	.p2-p3 {
+	 position:absolute;
+	 margin:660px 40px;
+	 width:200px;
+	 font-size:30px;
+	}
+	
+}
+	/***************Landscape*******************************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : landscape) { 
+	#p2-image2 {
+	 float:left;
+	 height:400px;
+	 width:100px;
+	 margin: 820px 20px;
+	}	
+	.p2-p3 {
+	 position:absolute;
+	 margin:750px 20px;
+	 width:100px;
+	}
+
+}
+
+/***********************Iphone 5 Fix********************/
+@media screen and (device-aspect-ratio: 40/71) 
+and (orientation : portrait) { 
+
+
+}

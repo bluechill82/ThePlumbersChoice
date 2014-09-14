@@ -1,0 +1,427 @@
+body ::-webkit-scrollbar { 
+    display: none; 
+}
+/**********logo*****************/
+#header-logo {
+ border:white solid 1px;
+}
+/*********Nav Bar****************/
+.nav-item {
+border:white solid 1px;
+border-top:white solid 2px !important;
+}
+
+/************************************/
+/*******Raw Nitty Gritty*************/
+/************************************/
+#default-main {
+ background-color:#e3dfe0!important;
+ margin:0px 0px!important;
+}
+
+#right-arrow {
+ width:10px;
+ background-image:url('http://localhost/core/images/cover-right-arrow.png');
+ background-size:50% 100%!important;
+ border:1px blue solid;
+}
+
+#content {
+ height:75%!important;
+}
+
+#left-arrow {
+ border:1px blue solid;
+ }
+
+#center-content{
+ background:#fff;
+ margin-top:-20px!important;
+ width:750px!important;
+ position:absolute;
+ margin-left:-355px!important;
+ }
+
+ #meat-n-bones{
+ margin-left:20px!important;
+ background-color:grey;
+ border:blue 1px solid;
+ overflow:hidden;
+ height:300px!important;
+}
+
+#content-block {
+ margin-left:-740px!important;
+ }
+
+ /********bottom left*************/
+#buy-79098-container {
+background-color: #abbed4;
+}
+/***************bottom Right******/ 
+ #what-is-anode-rod-text{
+ position:absolute!important;
+ margin:0px -450px!important;
+ }
+ 
+ /***********Main Slide One*******/
+ #main-slide-one #meat-n-bones #default-main-h1-2{
+  padding:10px;
+ }
+
+ #main-slide-one #meat-n-bones #default-main h2 {
+ color:blue!important;
+ }
+ 
+ #main-slide-one #meat-n-bones #default-main p {
+  background:white!important;
+  margin-left:60px!important;
+  margin-top:0px!important;
+  border:solid blue 2px;
+ }
+ 
+ /**********main slide two***********/
+ #main-slide-two #meat-n-bones #default-main-h1-3{
+padding-right:10px;!important
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-4{
+ position:absolute;
+ color:grey;
+ margin-top:-30px;
+ margin-left:230px;
+ text-shadow:1px 1px 2px black, 0px 0px 10px black,0px 0px 20px blue;
+padding-right:10px;!important
+}
+
+ 
+ #main-slide-two #meat-n-bones #default-main h2 {
+ color:blue!important;
+ margin-top:160px!important;
+ }
+ 
+ #main-slide-two #meat-n-bones #default-main p {
+  background-color:#fff!important;
+  margin-left:150px!important;
+  border:solid blue 2px;
+ }
+
+ 
+ /*************main slide three************/
+#main-slide-three #meat-n-bones #default-main-h1{
+  padding-right:10px!important;
+ }
+ 
+#main-slide-three #meat-n-bones #default-main-h1-3{
+  padding-right:10px!important;
+ }
+ 
+ #main-slide-three #meat-n-bones #default-main-h1-4{
+  padding-right:10px!important;
+ }
+ 
+ #main-slide-three #meat-n-bones #default-main-h1-5{
+  padding-right:10px!important;
+ }
+ 
+ #main-slide-three #meat-n-bones #default-main h2 {
+ margin-left:-260px!important;
+}
+
+#main-slide-three #meat-n-bones #default-main p {
+margin-left:-150px!important;
+background-color:#fff!important;
+border:2px solid blue!important;
+}
+
+/*****************main slide four****************/
+#main-slide-four #meat-n-bones #default-main-h1-3{
+ padding:10px!important;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-5{
+ margin-top:60px!important;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-7{
+ padding:10px!important;
+}
+
+#main-slide-four #meat-n-bones #default-main p {
+ margin:130px 180px!important;
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+
+
+/**************What is an Anode Rod? Slide One*******************/
+#s5 {
+  margin-top:0px!important;
+}
+
+#s5-p1 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+
+#s5-p2 {
+ margin:30px -160px!important;
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+ 
+#s5-image {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+  }
+
+  /**************What is an Anode Rod? Slide Two*******************/
+
+#s6 {
+  margin-top:0px!important;
+}
+
+#s6 h1 {
+ margin-left:-20px!important;
+}
+
+#s6-p1 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+
+#s6-p2 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+ margin:70px 10px!important;
+ }
+ 
+#s6-image {
+ position:absolute!important;
+ background-color:#fff!important;
+ border:2px solid blue!important;
+ margin:0px -330px!important;
+}
+
+  /**************What is an Anode Rod? Slide Three*******************/
+
+  
+#s7 {
+  margin-top:0px!important;
+}
+
+#s7-p1 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+
+#s7-p2 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+ margin: 20px -150px!important;
+ padding:10px;
+}
+ 
+#s7-image {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+ margin-right:30px;
+ margin-top: 20px!important;
+ padding:8px 0px!important;
+}
+
+  /**************What is an Anode Rod? Slide Four*******************/
+ 
+#s8 {
+  margin-top:0px!important;
+}
+  
+#s8-p1 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+
+#s8-p2 {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+ margin:126px -170px!important; 
+ padding:10px;
+ width:400px!important;
+}
+
+#s8-image {
+ background-color:#fff!important;
+ border:2px solid blue!important;
+  margin-left:70px;
+  margin-top:-14px;
+  width:230px;
+  }
+ 
+
+/***********blue lightning slide one********/
+#s9 h1 {
+  margin-right: 30px!important;
+  padding-right:10px!important;
+}
+
+
+#s9-p1 {
+ margin-top:20px!important;
+ margin-left:-150px!important;
+ border:2px blue solid!important;
+ background-color:#fff!important;
+}
+
+#s9-image {
+ border:2px solid blue!important;
+ margin-top:20px!important;
+}
+
+/**************blue lightning slide two***********/
+#s10 h1 {
+padding:10px!important;
+}
+
+#s10-image {
+ border:2px solid blue!important;
+}
+
+#s10-p1 {
+ margin:-15px -150px!important;
+ background-color:#fff!important;
+ border:2px solid blue!important;
+}
+
+/**************blue lightning slide three***********/
+#s11 h1 {
+ margin-left:44px!important;
+}
+
+#s11-p1 {
+ margin-left:-600px!important;
+ border:2px solid blue!important;
+ background-color:#fff!important;
+}
+
+#s11-p2 {
+ margin-left:-270px!important;
+ border:2px solid blue!important;
+ background-color:#fff!important;
+}
+
+/**************Blue Lightning Slide Four**************/
+#s12 h1 {
+ padding-right:10px!important;
+ margin-right:26px!important;
+}
+
+#s12-p1 {
+ margin:110px 320px!important;
+ background-color:#fff!important;
+ border:blue solid 2px!important;
+ padding-bottom:12px!important;
+}
+
+#s12-p2 {
+ margin:110px 10px!important;
+ background-color:#fff!important;
+ border:blue solid 2px!important;
+ padding-bottom:70px!important;
+ z-index:0!important;
+}
+
+#s12-image {
+ position:absolute!important;
+ border:2px blue solid!important;
+ background-color:#fff!important;
+ padding:0px!important;
+ margin-top: 210px!important;
+ margin-left:20px!important;
+ z-index:1!important;
+ }
+ 
+   /**************Three Reasons Slide One*******************/
+   
+#s13 {
+ margin-top:0px!important;
+}
+
+#s13-image {
+  margin-left:30px!important;
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+ }
+
+#s13-p1 {
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+}
+ 
+#s13-p2 {
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+ margin-left:-140px!important;
+}
+
+ /**************Three Reasons Slide Two*******************/
+#s14-p1 {
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+}
+
+#s14-p2 {
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+  margin:-21px -1000px!important;
+  }
+
+#s14-image {
+  margin:-22px 400px!important;
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+  }
+ 
+ 
+  
+  /**************Three Reasons Slide Three*******************/
+
+
+#s15-p1 {
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+}
+
+#s15-p2 {
+  margin: -30px -150px!important;
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+}
+ 
+#s15 {
+  margin-top:-0px!important;
+}
+
+#s15-image {
+  margin-top:-30px!important;
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+}
+ 
+ /**************Anode Rod Life Cycle*******************/
+#s16 h1 {
+  margin-left: -190px!important;
+}
+
+#s16-p1 {
+  margin:80px -310px!important;
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+  padding:22px!important;
+}
+
+#s16-image {
+  border:blue solid 2px!important;
+  background-color:#fff!important;
+}
+
+

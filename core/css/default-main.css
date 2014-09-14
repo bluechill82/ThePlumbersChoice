@@ -1,0 +1,2111 @@
+a {
+ text-decoration:none;
+ color:#000;
+ }
+
+img {
+ border:none;
+}
+
+h3, h2, h1 {
+font-family: 'Damion', cursive;
+}
+
+#default-anchor{
+ text-decoration:none;
+}
+
+#default-main {
+ color:black;
+ background-color: rgba(255,255,255,.8);
+ height: 340px;
+ margin-left: 10px;
+ margin-top:14px;
+ border-radius: 1pc;
+ box-shadow:0px 0px 10px blue;
+ overflow: hidden!important;
+}
+
+@-moz-document url-prefix() {
+#default-main {
+        width: 690px;
+		margin-left: 0px;
+    }
+}
+
+#default-main:hover {
+ background-color: rgba(255,255,255,.8);
+ cursor:pointer;
+ box-shadow:0px 0px 20px blue;
+}
+
+#blue-left-nav-sprite, #blue-right-nav-sprite {
+ height:300px;
+ width:50px;
+}
+/************************************************************
+Main Slide One
+***********************************************************/
+#main-slide-one {
+ height:75%;
+}
+
+#main-slide-one #meat-n-bones #default-main {
+cursor: default;
+}
+
+#main-slide-one #meat-n-bones #default-main h1{
+ float:left; 
+ text-align:left;
+}
+
+#main-slide-one #meat-n-bones #default-main-h1-1{
+ margin-left:40px;
+ font-size:26px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-one #meat-n-bones #default-main-h1-2{
+ position:absolute;
+ color:blue;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ font-size:56px;
+ margin-left:70px;
+}
+
+#main-slide-one #meat-n-bones #default-main-h1-3{
+position:absolute;
+margin-top: 20px;
+margin-left: 170px;
+text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+font-size: 26px;
+color: black;
+}
+
+#main-slide-one #meat-n-bones #default-main h2 {
+ color:#acc8e4;
+ text-shadow:2px 2px 4px blue,-1px -1px 4px blue,0px 0px 20px white;
+ text-align:left;
+ font-size:16px;
+ margin-top:140px;
+ margin-left:150px;
+}
+
+#main-slide-one #meat-n-bones #default-main p {
+ font-size:14px;
+ width:300px;
+ text-align:left;
+ background-color:rgba(0,0,0,.1);
+ text-shadow:0px 0px 10px rgba(0,0,255,.5);
+ padding:10px;
+ float:left;
+ margin:-110px 160px;
+ border-radius:1pc;
+ box-shadow:1px 1px 20px blue,0px 0px 20px white;
+}
+
+#main-slide-one #meat-n-bones #default-main p a {
+ color:black;
+ text-decoration:none;
+ font-weight:bold;
+ text-shadow:0px 0px 10px blue;    
+}
+
+#main-slide-one #meat-n-bones #default-main img {
+ float:right;
+ height:300px;
+ margin-left:-60px;
+}
+
+/************************************************************
+Main Slide Two
+***********************************************************/
+
+#main-slide-two {
+ height:75%;
+}
+
+#main-slide-two #meat-n-bones #default-anchor {
+ text-decoration:none;
+}
+
+#main-slide-two #meat-n-bones #default-main h1{
+ float:left; 
+ text-align:left;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-1{
+ color:black;
+ margin-left:40px;
+ font-size:26px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-2{
+ color:blue;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ font-size:56px;
+ margin-left:70px;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-3{
+ color:blue;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ font-size:56px;
+ position:absolute;
+ margin-left:190px;
+ margin-top:-50px;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-4{
+ position:absolute;
+ color:grey;
+ margin-left:230px;
+ text-shadow:1px 1px 2px black, 0px 0px 10px black,0px 0px 20px blue;
+}
+
+#main-slide-two #meat-n-bones #default-main h2 {
+ color:#acc8e4;
+ text-shadow:2px 2px 4px blue,-1px -1px 4px blue,0px 0px 20px white;
+ text-align:left;
+ font-size:16px;
+ margin-top:180px;
+ margin-left:400px;
+}
+
+#main-slide-two #meat-n-bones #default-main p {
+ font-size:14px;
+ width:300px;
+ text-align:left;
+ background-color:rgba(0,0,0,.1);
+ text-shadow:0px 0px 10px rgba(0,0,255,.5);
+ padding:10px;
+ float:left;
+ margin:0px 320px;
+ border-radius:1pc;
+ box-shadow:1px 1px 20px blue,0px 0px 20px white;
+}
+
+#main-slide-two #meat-n-bones #default-main p a {
+ color:black;
+ text-decoration:none;
+ text-shadow:0px 0px 10px blue;    
+}
+
+#main-slide-two #meat-n-bones #default-main img {
+ float:right;
+ height:300px;
+ margin-left:-60px;
+}
+
+#main-slide-two #meat-n-bones .see-it-now {
+ display:none;
+ margin-top:60px!important;   
+}
+
+#main-slide-two #meat-n-bones #bl-image {
+ height:140px!important;
+ float:right;
+ margin-right:70px;
+ margin-top:10px;
+}
+
+#main-slide-two #meat-n-bones #bl-rod-image {
+ float:left;
+ margin-left:50px;
+ margin-top:-170px;
+ height:130px;
+}
+
+/************************************************************
+Main Slide Three
+***********************************************************/
+
+#main-slide-three {
+ height:75%;
+}
+
+#main-slide-three #meat-n-bones #default-anchor a {
+ text-decoration:none;
+}
+
+#main-slide-three #meat-n-bones #default-main h1{
+ float:left; 
+ text-align:left;
+ margin-top:-30px!important;
+}
+
+#default-main-h1 {
+ position: relative;
+ color:green;
+ font-size:150px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-1{
+ color:black;
+ margin-left: 70px;
+ font-size:26px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ position: absolute;
+ margin-top: -160px;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-2{
+ color:black;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ font-size:16px;
+ margin-left:70px;
+ margin-top: -146px;
+ position: absolute;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-3{
+ color:black;
+ text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+ font-size:36px;
+ position:absolute;
+
+ margin: -128px 88px;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-4{
+ position:absolute;
+ font-size: 60px;
+ color: blue;
+ margin-top: -130px;
+ margin-left: 100px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-5{
+ position:absolute;
+ font-size: 70px;
+ color:green;
+ margin-top: -72px;
+ margin-left: 74px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-three #meat-n-bones #default-main h2 {
+ color:grey;
+ text-shadow: 1px 1px 2px black, 0px 0px 10px black,0px 0px 20px blue;
+ text-align:left;
+ position:absolute;
+ font-size:46px;
+ margin-top:26px;
+ margin-left:110px;
+}
+
+#main-slide-three #meat-n-bones #default-main p {
+ font-size:14px;
+ width:260px;
+ background-color:rgba(0,0,0,.1);
+ text-shadow:0px 0px 10px rgba(0,0,255,.5);
+ padding:10px 10px 40px;
+ position:absolute;
+ margin:120px 250px;
+ border-radius:1pc;
+ box-shadow:1px 1px 20px blue,0px 0px 20px white;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ }
+ 
+ #main-slide-three #meat-n-bones #default-main p a {
+ box-shadow:none;
+ text-shadow:0px 0px 20px blue;
+ }
+
+#main-slide-three #meat-n-bones #increase-sales {
+ position:absolute;
+ background-color:orange;
+ width:160px;
+ text-align:center;
+ margin:24px -184px;
+ color: #660033!important;
+ font-size:12px;
+ font-weight:bold;
+ padding: 4px 10px;
+ background: -webkit-linear-gradient(yellow, red)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(yellow, red)!important; /* Standard syntax (must be last) */
+ border-radius:1pc;
+ }
+ 
+ #main-slide-three #meat-n-bones #increase-sales:hover {
+  box-shadow:0px 0px 20px yellow; 
+  color:red!important;
+  text-shadow:0px 0px 4px black;  
+ }
+
+ #main-slide-three #meat-n-bones #money {
+ position:absolute;
+ margin-left:200px;
+ margin-top:40px;
+ width:160px;
+}
+
+/***************************************************
+ Main Slide Four
+ ******************************************************************/
+#main-slide-four {
+ height:75%;
+}
+
+#main-slide-four #meat-n-bones #default-anchor a {
+ text-decoration:none;
+}
+
+#main-slide-four #meat-n-bones #default-main h1{
+ float:left; 
+ text-align:left;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-1{
+ color:black;
+ margin-left:40px;
+ font-size:26px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-2{
+ color:black;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ font-size:26px;
+ margin-left:70px;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-3{
+ color:grey;
+ text-shadow:1px 1px 2px black, 0px 0px 10px black,0px 0px 20px blue;
+ font-size:46px;
+ position:absolute;
+ margin-left:80px;
+ margin-top:0px;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-4{
+ position:absolute;
+ color:#000;
+ font-size:38px;
+ margin-top:8px;
+ margin-left:310px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-5{
+ position:absolute;
+ color:#000;
+ font-size:26px;
+ margin-top:50px;
+ margin-left:230px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ }
+
+#main-slide-four #meat-n-bones #default-main-h1-6{
+ position:absolute;
+ color:#000;
+ font-size:26px;
+ margin-top:90px;
+ margin-left:190px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ }
+
+#main-slide-four #meat-n-bones #default-main-h1-7{
+ position:absolute;
+ color:#000;
+ font-size:48px;
+ color:blue;
+ margin-top:70px;
+ margin-left:270px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
+ }
+
+#main-slide-four #meat-n-bones #default-main h2 {
+ color:grey;
+ text-shadow:-1px -1px 10px white,0px 0px 20px blue;
+ text-align:left;
+ float:left;
+ font-size:46px;
+ margin-top:26px;
+ margin-left:-80px;
+}
+
+#main-slide-four #meat-n-bones #default-main p {
+ font-size:14px;
+ width:220px;
+ text-align:left;
+ background-color:rgba(0,0,0,.1);
+ text-shadow:-1px -1px 10px white,0px 0px 20px blue;
+ padding:6px 0px 10px 20px;
+ float:left;
+ margin:120px 420px;
+ margin-top:138px\0/;
+ border-radius:1pc;
+ box-shadow:1px 1px 20px blue,0px 0px 20px white;
+ color:black;
+ text-decoration:none;
+ }
+ 
+#main-slide-four #meat-n-bones  #default-anchor p a {
+  color:black; 
+text-align:center;  
+ }
+
+#main-slide-four #dead-anode {
+ position:absolute;
+ margin-left:80px;
+ margin-top:30px;
+ width:260px;
+}
+
+@-moz-document url-prefix() {
+    #main-slide-four #increase-sales {
+		margin-left: -140px;
+		margin-top: 30px;
+    }
+}
+
+/******************************************
+What is an Anode Rod? Slide One
+************************************************/
+#what-is-an-anode-rod-slide-one {
+  height:75%
+}
+
+#s5 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s5 h1 {
+  float:left;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  margin-left: 16px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s5-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s5-p2 {
+  position:absolute;
+  margin:50px 24px;
+  padding:10px;
+  width:300px;
+  text-align:left;font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+ 
+#s5 {
+  margin-top:-16px;
+/*  margin-top:-6px\0/;*/
+}
+
+#s5-image {
+  float:right;  
+  margin-right:30px;
+  width:288px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  }
+
+  /************************************************
+  What is an Anode Rod? Slide Two
+  **************************************************/
+#what-is-an-anode-rod-slide-two {
+  height:75%
+}
+
+#s6 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s6 h1 {
+  position: absolute;
+  width:360px;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  margin: -10px 300px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s6-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s6-p2 {
+  position:absolute;
+  margin:80px 350px;
+  padding:10px;
+  width:300px;
+  text-align:left;font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+ 
+#s6 {
+  margin-top:-16px;
+  margin-top:-6px\0/;
+}
+
+#s6-image {
+  float:left;  
+  margin-left:30px;
+  margin-left:20px\0/;
+  margin-top:20px;
+  margin-top:10px\0/;
+  width:288px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  }
+
+  /***********************************
+  What is an Anode Rod? Slide Three
+  **************************************/
+#what-is-an-anode-rod-slide-three {
+  height:75%
+}
+
+#s7 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s7 h1 {
+  float:left;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  margin-left: 40px;
+  margin-top: -10px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s7-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s7-p2 {
+  position:absolute;
+  margin: 22px 24px;
+  padding:10px;
+  width:300px;
+  text-align:left;font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+ 
+#s7 {
+  margin-top:-16px;
+  margin-top:-6px\0/;
+}
+
+#s7-image {
+  float:right;  
+  margin-right:30px;
+  width:288px;
+  margin-top: 6px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  }
+
+  /********************************************
+  What is an Anode Rod? Slide Four
+  ************************************/
+#what-is-an-anode-rod-slide-four {
+  height:75%
+}
+
+#s8 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s8 h1 {
+  float:right;
+  width:360px;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  margin-right: 16px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s8-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s8-p2 {
+  position:absolute;
+  margin:120px 30px;
+  padding:10px;
+  width:300px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+ 
+#s8 {
+  margin-top:-16px;
+  margin-top:-6px\0/;
+}
+
+#s8-image {
+  float:left;  
+  margin-left:70px;
+  margin-top:-14px;
+  width:230px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  }
+  
+/**********************************
+Blue Lightning Rod Slide One
+*****************************************************************/
+#blue-lightning-rod-slide-one {
+  height:75%
+}
+
+#s9 {
+  margin-top:0px;
+  margin-top:-6px\0/;
+}
+
+#s9 h1 {
+  float:right;
+  font-size: 36px;
+  color:blue;
+  font-weight: bolder;
+  margin-right: 16px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s9-p1 {
+  position:absolute;
+  padding:2px 10px;
+  width:300px;
+  margin:80px 340px;
+  text-align:center;
+  font-size: 16px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s9-image {
+  float:left;  
+  margin-left:30px;
+  margin-top:10px;
+  width:250px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+   }
+
+/************************************
+Blue Lightning Rod Slide Two
+***************************************/
+#blue-lightning-rod-slide-two {
+  height:75%
+}
+
+#s10 {
+  margin-top:0px;
+  margin-top:-6px\0/;
+}
+
+#s10 h1 {
+  float:left;
+  font-size: 36px;
+  color:blue;
+  font-weight: bolder;
+  margin-left: 16px;
+  margin-top:0px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s10-p1 {
+  position:absolute;
+  padding:2px 10px;
+  width:260px;
+  margin:0px 380px;
+  text-align:center;
+  font-size: 16px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s10-image {
+  position:absolute;  
+  margin-left:-470px;
+  margin-left:-300px\0/;
+  margin-top:130px;
+  width:250px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+   }
+   
+          /*****************************
+		  Blue Lightning Rod Slide Three
+		  *********************************/
+#blue-lightning-rod-slide-three {
+  height:75%
+}
+
+#s11 {
+  margin-top:0px;
+  margin-top:-6px\0/;
+}
+
+#s11 h1 {
+  float:left;
+  font-size: 36px;
+  color:blue;
+  font-weight: bolder;
+  margin-left: 80px;
+  margin-top:0px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s11-p1 {
+  position:absolute;
+  padding:2px 10px;
+  width:260px;
+  margin:120px 30px;
+  text-align:center;
+  font-size: 16px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s11-p2 {
+  position:absolute;
+  padding:10px;
+  width:260px;
+  margin:120px 380px;
+  text-align:center;
+  font-size: 18px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+/*************************************
+Blue Lightning Rod Slide Four
+**************************************/
+#blue-lightning-rod-slide-four {
+  height:75%
+}
+
+#s12 {
+  margin-top:0px;
+  margin-top:-6px\0/;
+}
+
+#s12 h1 {
+  float:right;
+  font-size: 36px;
+  color:blue;
+  font-weight: bolder;
+  margin-right: 16px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s12-p1 {
+  position:absolute;
+  padding:2px 10px;
+  width: 300px;
+  margin: 130px 340px;
+  text-align:center;
+  font-size: 16px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s12-p2 {
+  position:absolute;
+  padding:2px 10px;
+  width: 230px;
+  margin: 110px 30px;
+  text-align:center;
+  font-size: 16px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s12-image {
+  float:left;  
+  margin-left:30px;
+  margin-top: 80px;
+  width: 230px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  padding: 10px;
+}
+
+  /**************Three Reasons Slide One*******************/
+#s13 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s13 h1 {
+  width: 450px;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  margin-right: 16px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s13-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s13-p2 {
+  position:absolute;
+  margin: -16px 330px;
+  padding: 18px 10px;
+  width:300px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s13-image {
+  float:left;  
+  margin-left:70px;
+  margin-top:-14px;
+  width:230px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  }
+ 
+  /**************Three Reasons Slide Two*******************/
+#three-reasons-slide-two{
+  height:75%
+}
+
+#s14 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s14 h1 {
+  width:560px;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  margin-right: 16px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s14-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s14-p2 {
+  position:absolute;
+  margin: -14px 50px;
+  padding: 36px 10px;
+  width:300px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+ 
+#s14 {
+  margin-top:-16px;
+  margin-top:-6px\0/;
+}
+
+#s14-image {
+  float:left;  
+  margin-left: 400px;
+  margin-top:-14px;
+  width:240px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+  }
+ 
+  /**************Three Reasons Slide Three*******************/
+#three-reasons-slide-three {
+  height:75%
+}
+
+#s15 h2 {
+  color: black;
+  text-shadow: 1px 1px 2px yellow,0px 0px 20px blue;
+}
+
+#s15 h1 {
+  width:660px;
+  font-size: 26px;
+  color:blue;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s15-p1 {
+  padding:2px 10px;
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s15-p2 {
+  position:absolute;
+  margin: -16px 350px;
+  padding: 24px 10px 10px;
+  width:250px;
+  height:104px;
+  text-align:center;
+  font-size: 14px;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+ 
+#s15 {
+  margin-top:-16px;
+  margin-top:-6px\0/;
+}
+
+#s15-image {
+  float:left;  
+  margin-left:70px;
+  margin-top:-14px;
+  width:230px;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+    }
+ 
+    
+/**************Anode Rod Life Cycle*******************/
+#anode-rod-life-cycle-content-window {
+  height:75%
+}
+
+#s16 {
+  margin-top:0px;
+  margin-top:-6px\0/;
+}
+
+#s16 h1 {
+  position:absolute;
+  font-size: 36px;
+  color:blue;
+  font-weight: bolder;
+  margin-left: 180px;
+  margin-top:0px;
+  text-shadow: 1px 1px 2px yellow,0px 0px 10px white,0px 0px 30px blue;
+}
+
+#s16-p1 {
+  position:absolute;
+  padding:20px;
+  width:260px;
+  margin:80px 30px;
+  text-align:center;
+  font-size: 16px;
+  font-weight:bold;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: 0px 0px 10px rgba(0,0,255,.5);
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#s16-image {
+  position:absolute;
+  width:260px;
+  margin:80px 50px;
+  margin-left:380px\0/;
+  border-radius: 1pc;
+  box-shadow: 1px 1px 20px blue,0px 0px 20px white;
+}
+
+#about-us {
+ height:75%;
+}
+
+#about-us-slide-one {
+ height:100%;
+}
+
+
+/************Main Nav Arrows*******************/
+
+#blue-left-nav-sprite-case {
+ float:left;
+ margin:-6px;
+ width:18px;
+ overflow:hidden;  
+}
+
+#blue-left-nav-sprite-case:hover {
+ transition-property: width;
+ transition-duration:.5s;
+ width:24px;
+}
+
+#blue-left-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-20px;
+}
+
+#blue-right-nav-sprite-case {
+ float:right;
+ margin:0px -10px;
+ width:18px;
+ overflow:hidden;  
+}
+
+#blue-right-nav-sprite-case:hover {
+ transition-property: width;
+ transition-duration:.5s;
+ width:24px;
+}
+
+#blue-right-nav-sprite {
+ margin-left:-30px;	
+}
+
+#blue-right-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-2px;
+}
+
+
+/***********768 Resolution Media Query*********/
+/***************Body Fix **************/
+@media only screen and (max-device-height:770px) {
+	
+	#default-main {
+	 height:300px;
+	}
+	
+	.map-canvas iframe{
+	 height:100px!important;
+	 overflow:hidden!important;
+	}
+	
+	#what {
+	 height:100%;
+	}
+	
+	#main-slide-two #meat-n-bones #default-main p {
+	 padding:4px 10px;
+	}
+	
+	#main-slide-three #meat-n-bones #default-main p {
+	 padding:4px 10px 34px;
+	 margin-top:116px; 
+	}
+	
+	#main-slide-three #meat-n-bones #money {
+	 margin-left:550px\0/;
+	 margin-top:40px;
+	}
+	
+	#main-slide-four #dead-anode {
+	 margin-left:380px\0/;
+	}
+	
+	#main-slide-four #meat-n-bones #default-main p {
+	 margin-top:126px;
+	}
+	
+	#s6 h1 {
+	 width:380px;
+	}
+	
+	#s6-p2 {
+	 margin-top:60px;
+	}
+	
+	#s6-image {
+	 margin:0px 10px;
+	}
+	
+	#s8 h1 {
+	 margin-top:-4px;
+	}
+	
+	#s8-p2 {
+	 margin:100px 20px;
+	}
+	
+	#s10-p1 {
+	 width:260px;
+	 font-size:15px;
+	}
+	
+	#s10-image {
+	 margin-top:130px;
+	 width:230px;
+	}
+	
+	#s11-p1, #s11-p2 {
+	 margin-top:104px;
+	}
+	
+	#s14-p2, #s14-image {
+	 margin-top:-30px;
+	}
+	
+	#s15-p2, #s15-image {
+	 margin-top:-30px;
+	}
+	
+	#s16 h1 {
+	 margin-top:20px;
+	}
+}
+
+/*****************************************************************************
+					Nerve Racking IE Hacks
+*****************************************************************************/
+#main-slide-three #meat-n-bones #money {
+ margin-left:550px\0/;
+}
+
+#main-slide-four #dead-anode {
+ margin-left:420px\0/;
+}
+	
+@media all and (-ms-high-contrast:none)     {
+
+	#main-slide-three #meat-n-bones #money {
+	 margin-left:550px;
+	}
+	
+	#main-slide-four #dead-anode {
+	 margin-left:420px;
+	}
+
+	*::-ms-backdrop, #main-slide-three #meat-n-bones #money { 
+	 margin-left:200px;
+	} 
+
+
+	*::-ms-backdrop, #main-slide-four #dead-anode { 
+	 margin-left:80px;
+	} 
+	
+ }
+
+/***************************************************************************************************************************************************************************************************************************************************
+							Iphone Landscape Media Query
+*******************************************************************************************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+	#default-main {
+	 height:330px;
+	}
+
+	#nav-dots-container {
+	 margin-left:-22px;
+	}
+
+	#nav-dots-container a {
+ 	 padding: 2px 6px;
+	 font-size: 15px;
+	}
+	
+/**********************************
+Blue Lightning Rod Slide One
+***********************************************/
+	#s9 h1 {
+	 font-size: 32px;
+	 margin-right: 20px;
+	}
+
+
+/************************************
+Blue Lightning Rod Slide Two
+***************************************/
+
+	#s10 h1 {
+	 font-size: 34px;
+	 margin-left: 6px;
+	}
+
+	#s10-p1 {
+	 padding:2px 6px;
+	 width:280px;
+	 margin:0px 380px;
+	 font-size: 16px;
+	}
+	
+ /********************************************
+  What is an Anode Rod? Slide Four
+  ************************************/
+  #s8-p2 {
+  margin:110px 20px;
+  width:300px;
+  font-size: 14px;
+}
+
+/***************************************************************
+Blue Lightning Rod Slide Three
+*****************************************************************/
+
+#s11-p1 {
+  width:260px;
+  margin:120px 30px;
+  font-size: 14px;
+}
+
+#s11-p2 {
+  width:260px;
+  margin:120px 380px;
+  font-size: 16px;
+}
+
+/***************************************************************
+Three Reasons Slide Three
+*****************************************************************/
+
+#s15-p2 {
+  margin-top: -36px;
+}
+
+#s15-image {
+  margin-top: -36px;
+    }
+
+}
+
+/******************************************************************************************888****************************************************************************************************************************************************************************************************88
+							Iphone Portrait Media Query
+****************************************************************************************************************************************************************************88*************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+/**************************************************************************8
+Home Bottom 79098 Paypal 
+**************************************************************************/
+#front-page-product {
+ font-size:30px;
+}
+
+#fp-buy {
+ margin-top: 130px;
+}
+
+.fp-buy-image {
+ height:60px;
+ width:140px;
+ margin:-60px 120px;
+}
+
+#quanity-text {
+ font-size:24px;
+}
+
+#quanity-select {
+ height:40px;
+ width:230px;
+ font-size:22px;
+}
+
+#front-page-offer {
+ font-size:16px;
+ margin-top:30px;
+}
+
+/************************************************8
+what is an anode rods
+***************************************************/
+#what-is-anode-rod-text {
+margin-top: -230px;
+margin-left: 20px;
+}
+
+#what-is-anode-rod-text h3 {
+font-size:38px;
+}
+
+#what-is-anode-rod-text p {
+font-size:28px;
+}
+
+#learn-more {
+margin-left: 20px;
+width: 160px;
+font-size: 26px;
+margin-top: 0px;
+}
+
+
+/******************************************
+What is an Anode Rod? Slide One
+************************************************/
+#s5 h2 {
+ font-size:40px;
+}
+
+#s5 h1 {
+  font-size: 56px;
+  margin-left: 70px;
+  margin-top:-10px;
+  }
+
+#s5-p1 {
+  width:510px;
+  font-size: 18px;
+}
+
+#s5-p2 {
+  margin:80px 50px;
+  width:380px;
+  font-size: 20px;
+ }
+
+#s5-image {
+  margin-right:50px;
+  width:300px;
+  }
+
+  
+  /************************************************
+  What is an Anode Rod? Slide Two
+  **************************************************/
+#s6 h2 {
+  font-size:40px;
+ }
+
+#s6 h1 {
+  font-size: 46px;
+  margin-left: -10px;
+  margin-top:-10px;
+  width:820px;
+}
+
+#s6-p1 {
+  width:510px;
+  font-size: 18px;
+}
+
+#s6-p2 {
+  margin:100px 450px;
+  width:350px;
+  font-size: 21px;
+}
+
+#s6-image {
+  margin-left:30px;
+  margin-top:100px;
+  width:320px;
+  }
+
+  /***********************************
+  What is an Anode Rod? Slide Three
+  **************************************/
+#s7 h2 {
+  font-size:40px;
+}
+
+#s7 h1 {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+#s7-p1 {
+  width:510px;
+  font-size: 18px;
+}
+
+#s7-p2 {
+  margin:80px 50px;
+  width:380px;
+  font-size: 18px;
+}
+
+#s7-image {
+  margin-right:50px;
+  width:300px;
+  }
+
+  /********************************************
+  What is an Anode Rod? Slide Four
+  ************************************/
+
+#s8 h2 {
+  font-size:40px;
+}
+
+#s8 h1 {
+  width:360px;
+  font-size: 36px;
+  margin-right: 16px;
+ }
+
+#s8-p1 {
+  width:510px;
+  font-size: 18px;
+}
+
+#s8-p2 {
+  margin:160px 30px;
+  width:330px;
+  font-size: 18px;
+}
+
+#s8-image {
+  margin-left:30px;
+  margin-top:-14px;
+  width:350px;
+  }
+  
+
+/***************************************
+Nav Dots
+*********************************************/
+#nav-dots-container {
+height: 60px;
+margin-top: -60px;
+margin-left: -36px;
+}
+
+#nav-dots-container a {
+ padding:20px 10px;
+ font-size:20px;
+}
+
+/***********************************
+ Dynamic Block 
+ ***********************************/
+#default-main {
+height: 500px;
+margin: 44px 0px 0px 10px;
+}
+
+#meat-n-bones {
+position: absolute;
+width: 860px;
+margin-top: 16px;
+margin-left: 36px;
+}
+
+/**********************************
+ Left Arrow Sprite 
+ **********************************/
+#left-arrow {
+width: 30px;
+height: 340px;
+margin-left: 6px;
+margin-top: 16%;
+}
+
+#blue-left-nav-sprite-case {
+width: 30px;
+}
+
+#blue-left-nav-sprite {
+height: 340px;
+width: 80px;
+}
+
+#blue-left-nav-sprite:hover {
+ 	margin-left:-38px;
+}
+
+/***&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ Right Arrow Sprite 
+ *******************************************/
+
+#right-arrow {
+ width: 30px;
+ height: 340px;
+ margin-top: 16%;
+ margin-left:900px;	
+ }
+
+#blue-right-nav-sprite-case {
+ width:30px;
+}
+
+#blue-right-nav-sprite {
+ height: 340px;
+ width: 70px;
+ margin-left:-50px;
+}
+
+#blue-right-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-8px;
+}
+
+/*********************************
+ Main Slide One 
+ *************************************/
+#main-slide-one #meat-n-bones #default-main img {
+height: 500px;
+margin-left: -160px;
+}
+
+#main-slide-one #meat-n-bones #default-main-h1-1{
+ font-size:46px;
+}
+
+#main-slide-one #meat-n-bones #default-main-h1-2{
+ font-size:90px;
+}
+
+#main-slide-one #meat-n-bones #default-main-h1-3{
+margin-top: 40px;
+font-size: 46px;
+}
+
+#main-slide-one #meat-n-bones #default-main h2 {
+ font-size:36px;
+ margin-top:220px;
+ margin-left:150px;
+}
+
+#main-slide-one #meat-n-bones #default-main p {
+ font-size:24px;
+ width:520px;
+ padding:10px;
+ margin:-10px 20px;
+}
+
+/********************************
+ Main Slide Two 
+ ****************************************/
+#main-slide-two #meat-n-bones #default-main-h1-1{
+ margin-left:40px;
+ font-size:56px;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-2{
+ font-size:76px;
+ margin-left:70px;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-3{
+ font-size:76px;
+ margin-left:190px;
+ margin-top:-50px;
+}
+
+#main-slide-two #meat-n-bones #default-main-h1-4{
+ font-size:46px;
+ margin-left:230px;
+}
+
+#main-slide-two #meat-n-bones #default-main h2 {
+ font-size:36px;
+ margin-left:400px;
+ margin-top:300px;
+}
+
+#main-slide-two #meat-n-bones #default-main p {
+ font-size:24px;
+ width:600px;
+ padding:10px;
+ margin:-20px 220px;
+}
+
+#main-slide-two #meat-n-bones #bl-image {
+ height:200px!important;
+ margin-right:70px;
+ margin-top:10px;
+}
+
+#main-slide-two #meat-n-bones #bl-rod-image {
+ margin-left:20px;
+ margin-top:-270px;
+ height:180px;
+}
+
+/***************************************
+ Main Slide Three 
+ ***************************************/
+#default-main-h1 {
+ font-size: 350px;
+ margin-top:-140px;
+ position:absolute;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-1{
+ margin-left: 180px;
+ font-size:56px;
+ margin-top: 10px;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-2{
+ font-size:56px;
+ margin-left:240px;
+ margin-top: 30px;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-3{
+ font-size:86px;
+ margin: 170px 30px;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-4{
+ font-size: 100px;
+ margin-top: 210px;
+ margin-left: 40px;
+}
+
+#main-slide-three #meat-n-bones #default-main-h1-5{
+ font-size: 100px;
+ margin-top: 260px;
+ margin-left: 230px;
+}
+
+#main-slide-three #meat-n-bones #default-main h2 {
+ font-size:100px;
+ margin-top:110px;
+ margin-left:140px;
+}
+
+#main-slide-three #meat-n-bones #default-main p {
+ font-size:20px;
+ width:280px;
+ padding:10px 10px 30px;
+ margin:230px 530px;
+ }
+
+ #main-slide-three #meat-n-bones #money {
+ position:absolute;
+ margin-left:200px;
+ margin-top:20px;
+ width:200px;
+}
+/********************************************************
+Main Slide Four
+*********************************************************************/
+
+#main-slide-four #meat-n-bones #default-main-h1-1{
+ margin-left:40px;
+ font-size:46px;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-2{
+ font-size:46px;
+ margin-left:70px;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-3{
+ font-size:66px;
+ margin-left:80px;
+ margin-top:0px;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-4{
+ font-size:58px;
+ margin-top:70px;
+ margin-left:140px;
+}
+
+#main-slide-four #meat-n-bones #default-main-h1-5{
+ font-size:46px;
+ margin-top:120px;
+ margin-left:180px;
+ }
+
+#main-slide-four #meat-n-bones #default-main-h1-6{
+ font-size:46px;
+ margin-top:170px;
+ margin-left:140px;
+ }
+
+#main-slide-four #meat-n-bones #default-main-h1-7{
+ font-size:68px;
+ margin-top:190px;
+ margin-left:220px;
+ }
+
+#main-slide-four #meat-n-bones #default-main h2 {
+ font-size:70px;
+ margin-top:26px;
+ margin-left:-80px;
+}
+
+#main-slide-four #meat-n-bones #default-main p {
+ font-size:34px;
+ width:220px;
+ margin:120px 520px;
+ }
+ 
+#main-slide-four #dead-anode {
+ margin-left:40px;
+ margin-top:80px;
+ width:340px;
+}
+
+/**********************************
+Blue Lightning Rod Slide One
+*****************************************************************/
+
+#s9 h1 {
+  font-size: 56px;
+  margin-right: 0px;
+}
+
+#s9-p1 {
+  padding:2px 10px;
+  width:450px;
+  margin:220px 360px;
+  font-size: 22px;
+}
+
+#s9-image {
+  margin-left:30px;
+  margin-top:10px;
+  width:300px;
+   }
+
+/***************************************************************
+Blue Lightning Rod Slide Two
+*****************************************************************/
+#s10 h1 {
+  font-size: 40px;
+  margin-top:30px;
+ }
+
+#s10-p1 {
+  padding:2px 10px;
+  width:360px;
+  margin:10px 450px;
+  font-size: 22px;
+}
+
+#s10-image {
+  margin-left:-616px;
+  margin-top:210px;
+  width:400px;
+ }
+
+/***************************************************************
+Blue Lightning Rod Slide Three
+*****************************************************************/
+#s11 h1 {
+  font-size: 56px;
+  margin:0px;
+}
+
+#s11-p1 {
+  width:320px;
+  margin:180px 50px;
+  font-size: 22px;
+}
+
+#s11-p2 {
+  width:320px;
+  margin:180px 460px;
+  font-size: 24px;
+} 
+
+
+/*************************************
+Blue Lightning Rod Slide Four
+**************************************/
+#s12 h1 {
+  font-size: 56px;
+  margin-right: 16px;
+}
+
+#s12-p1 {
+  width: 370px;
+  margin: 230px 420px;
+  font-size: 22px;
+}
+
+#s12-p2 {
+  width: 300px;
+  margin: 230px 30px;
+  font-size: 22px;
+}
+
+#s12-image {
+  margin-left:30px;
+  margin-top: 160px;
+  width: 300px;
+}
+
+
+      /**************Three Reasons Slide One*******************/
+#s13 h2 {
+  font-size:34px;
+}
+
+#s13 h1 {
+  font-size: 46px;
+  margin-left: 0px;
+  margin-top: -10px;
+  width:650px;
+}
+
+#s13-p1 {
+  width:650px;
+  font-size: 20px;
+}
+
+#s13-p2 {
+  margin:0px 400px;
+  width:390px;
+  font-size: 24px;
+}
+
+#s13-image {
+  margin-left:30px;
+  margin-top:0px;
+  width:340px;
+  }
+ 
+  /**************Three Reasons Slide Two*******************/
+#s14 h2 {
+  font-size:34px;
+}
+
+#s14 h1 {
+  font-size: 40px;
+  margin-left: 0px;
+  margin-top: -10px;
+  width:850px;
+}
+
+#s14-p1 {
+  width:650px;
+  font-size: 20px;
+}
+
+#s14-p2 {
+  width: 300px;
+  margin: 0px 30px;
+  font-size: 22px;
+}
+
+#s14-image {
+  margin-left:480px;
+  margin-top:-10px;
+  width:340px;
+  }
+ 
+  /**************Three Reasons Slide Three*******************/
+#s15 h2 {
+  font-size:34px;
+}
+
+#s15 h1 {
+  font-size: 40px;
+  margin-left: 0px;
+  margin-top: -10px;
+  width:750px;
+}
+
+#s15-p1 {
+  width:510px;
+  text-align:center;
+  font-size: 14px;
+}
+
+#s15-p2 {
+  margin-top: -16px;
+  margin-left: 440px;
+  width:360px;
+  height:190px;
+  font-size: 24px;
+}
+
+#s15-image {
+  margin-left:30px;
+  margin-top: -16px;
+  width: 370px;
+    }
+ 
+}
+
+/***************************************************************
+Iphone 4 Fix
+****************************************************************/
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : landscape) { 
+	#meat-n-bones {
+	 margin-left:22px;
+	}
+	
+.fp-buy-image {
+	 margin-left: 200px;
+	}
+	
+	#front-page-offer {
+	 margin-top:10px;
+	}
+	
+		
+	/**** Blue Lightning Rod Slide Two ****/
+	#s10-image {
+	margin-left:-300px;
+   }
+
+	/**** Anode Life Cycle ****/
+   #s16-image {
+	width:260px;
+	margin:80px 400px;
+	}   
+   
+}
+
+@media screen and (device-aspect-ratio: 2/3) 
+and (orientation : portrait) { 
+
+	.fp-buy-image {
+	 height:40px;
+	 width:110px;
+	 margin:-40px 250px;
+	}
+
+	#front-page-product {
+	 margin-left:4px;
+	}
+
+	/**** Main Slide Two ****/
+	#main-slide-two #meat-n-bones #default-main h2 {
+	 margin-left:500px;
+	}
+
+	/**** Main Slide Three ****/
+	 #main-slide-three #meat-n-bones #money {
+	 margin-left:660px;
+	 }
+
+		/**** Main Slide Four ****/
+	#main-slide-four #dead-anode {
+	 margin-left:430px;
+	}
+	
+	/**** Blue Lightning Rod Slide Two ****/
+	#s10-image {
+	margin-left:-410px;
+   }
+   
+   /**************Anode Rod Life Cycle*******************/
+	#s16 h1 {
+	 font-size: 46px;
+	 margin-left: 220px;
+	 margin-top:30px;
+	}
+
+	#s16-p1 {
+	 width:340px;
+	 margin:180px 30px;
+	 font-size: 20px;
+	}
+
+	#s16-image {
+	 width:340px;
+	 margin:180px 450px;
+	}
+
+	/********************About US***********************/
+	#about-us {
+	 height:75%;
+	}
+
+	#about-us-slide-one {
+	 height:100%;
+	}
+
+
+}

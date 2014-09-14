@@ -1,0 +1,58 @@
+/***************Body Fix **************/
+@media only screen and (max-device-height:770px) {
+	
+	#default-main {
+	height:310px;
+	}
+	
+	/*************Header***************/
+	#header-logo {
+	margin-top: 0px;
+	height: 50px;
+	}
+
+
+	#social {
+	padding-left: 8px;
+	padding-top:5px;
+	}
+
+	/*********Nav Bar*****************/
+	#nav-bar {
+	height: 22px;
+	font-size:14px;
+	margin-top: -10px;
+	}
+
+	#nav li {
+	padding:10px 22px;
+	}
+
+	/****************Content Window********************/
+	#content {
+	height: 486px;
+	}
+
+	#center-content {
+	margin-top:-22px;
+	}
+
+	#down-arrow, #up-arrow {
+	height:20px!important;
+	margin-top:184px!important;
+	}
+	
+	.level-1 {
+	margin-top:0px!important;
+	}
+	
+	#text-box {
+	margin-top:10px!important;
+	height:170px!important;
+	}
+	
+	
+	
+	
+} 
+

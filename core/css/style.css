@@ -1,0 +1,230 @@
+/***************Body Fix **************/
+body {
+ overflow: hidden!important;
+}
+
+@media only screen and (max-device-width: 1060px) {
+ body {
+   margin-left:-20px;
+ }
+}
+
+/* Styles specific to this particular page */
+.scroll-pane,
+.scroll-pane-arrows
+{
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+.horizontal-only
+{
+	height: auto;
+	max-height: 200px;
+}
+
+/**************fonts**********************/
+@font-face {
+  font-family: 'Damion';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Damion'), url(http://localhost/core/fonts/qyDz-al48wZmmi6RcQn1Mg.woff) format('woff');
+}
+
+
+/*************Header***************/
+#header-logo {
+box-shadow: 0px 0px 30px whitesmoke;
+border-radius: 2pc;
+height: 50px;
+width: 240px;
+margin: -14px;
+}
+
+@media only screen and (min-device-height:800px) {
+	
+	#header {
+		margin-top:50px;
+	}
+} 
+
+#social {
+background-color: rgba(255,255,255,.5);
+padding-left: 8px;
+padding-top:5px;
+border-radius: 1pc;
+box-shadow: 0px 0px 30px white;
+z-index:2;
+margin-top:6px;
+}
+
+.sm-link:hover {
+ box-shadow:0px 0px 20px white;
+}
+
+/*********Nav Bar*****************/
+#nav-bar {
+ height:26px;
+ font-size:14px;
+ margin-top:0px;
+}
+
+#nav li {
+ display:inline;
+ cursor:pointer;
+ padding:10px 22px;
+ border-top-left-radius:1pc;
+ border-top-right-radius:1pc;
+ box-shadow:0px 0px 1px rgba(0,0,0,.4),0px -2px 4px #0258b2;
+ background: #84B1E0;
+ background: -webkit-linear-gradient(white, #0258b2); /* For Safari */
+ background: -o-linear-gradient(white, #0258b2); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #0258b2); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #0258b2); /* Standard syntax (must be last) */
+}
+
+#nav li  a{
+ text-decoration:none;
+ height:100%;
+ width:100%;
+ }
+
+.nav-item:hover {
+ box-shadow:-1px -3px 6px white,-2px -5px 10px whitesmoke!important;
+ text-shadow:0px 0px 2px yellow;
+ background: -webkit-linear-gradient(white, #6699ff)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(white, #6699ff)!important; /* Standard syntax (must be last) */
+}
+
+#order-tab {
+ height: 28px;
+ margin-top: -22px!important;
+ font-size:24px;
+ font-weight:bold;
+ box-shadow:0px 0px 10px red!important;
+ background:orange!important;
+ background: -webkit-linear-gradient(yellow, red)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(yellow, red)!important; /* Standard syntax (must be last) */
+}
+
+#order-tab  a{
+ color: #660033;
+ }
+
+#order-tab:hover {
+ box-shadow:0px -4px 20px yellow!important;
+}
+
+/****************Content Window********************/
+#content {
+ overflow: hidden;
+ background-color: rgba(255,255,255,.0);
+ height:540px;
+ margin-top: 10px;
+ padding-top:4px;
+}
+
+#center-content {
+ overflow: hidden;
+ background-color: rgba(255,255,255,.4);
+ width: 744px;
+ height:100%;
+ margin-left:38px;
+ margin-top:-16px;
+ border-bottom:double rgba(0,0,0,.2);
+}
+
+@-moz-document url-prefix() {
+    #center-content {
+        width: 740px;
+		height: 100%;
+		margin-left: 41px;
+		margin-top: -16px;
+    }
+}
+
+#home-bottom {
+height: 25%;
+border: double rgba(0,0,0,.2);
+}
+
+#products-page {
+ display:none;
+}
+
+/*************Footer*******************/
+#footer a {
+ color:grey;
+}
+
+#footer {
+ margin-top:-12px;
+ color:grey;
+ position:absolute;
+ width:100%;
+}
+
+#footer-row-1 {
+ font-size:12px;
+ }
+
+#footer-row-2 {
+ font-size:10px;
+ }
+
+#f-nav {
+ margin:0px;
+}
+
+#f-nav li {
+ display:inline;
+ padding: 0px 16px;
+}
+
+/************Main Nav Arrows*******************/
+
+#blue-left-nav-sprite-case {
+ float:left;
+ margin:-6px;
+ width:18px;
+ overflow:hidden;  
+}
+
+#blue-left-nav-sprite-case:hover {
+ transition-property: width;
+ transition-duration:.5s;
+ width:24px;
+}
+
+#blue-left-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-20px;
+}
+
+#blue-right-nav-sprite-case {
+ float:right;
+ margin:0px -10px;
+ width:18px;
+ overflow:hidden;  
+}
+
+#blue-right-nav-sprite-case:hover {
+ transition-property: width;
+ transition-duration:.5s;
+ width:24px;
+}
+
+#blue-right-nav-sprite {
+ margin-left:-30px;	
+}
+
+#blue-right-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-2px;
+}

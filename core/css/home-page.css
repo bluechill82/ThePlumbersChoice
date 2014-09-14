@@ -1,0 +1,278 @@
+/******** Home Page******************/
+#home-page {
+ height:100%;
+}
+
+/**************Main Content********************/
+#home-main-content-window{
+ height: 75%;
+ overflow:hidden;
+ z-index:20;
+}
+
+#what-is-an-anode-rod-content-window {
+ height: 75%;
+ overflow:hidden;
+ z-index:20;
+}
+
+#blue-lightning-rod-content-window {
+ height: 75%;
+ overflow:hidden;
+ z-index:20;
+}
+
+#three-reasons-content-window {
+ height: 75%;
+ overflow:hidden;
+ z-index:20;
+}
+
+#left-arrow {
+ width:10px;
+ height:40px;
+ margin-left:6px;
+ margin-top:50px;
+ position:absolute;
+ cursor:pointer;
+}
+
+#right-arrow {
+ width:10px;
+ height:40px;
+ margin-top:50px;
+ position:absolute;
+ margin-left:724px;
+ cursor:pointer;
+}
+@-moz-document url-prefix() {
+    #right-arrow {
+		margin-left: 716px;
+    }
+}
+
+#meat-n-bones {
+ position:absolute;
+ width:700px;
+ margin-top:16px;
+ margin-left:16px;
+}
+
+/*********Bottom of Home Page******************/
+#home-bottom {
+ height:25%
+}
+
+/****************Nav Dots ****************************/
+.nav-dot-active {
+ background-color:#226dbc!important;
+}
+
+#nav-dots-container {
+ height:20px;
+ position:absolute;
+ margin-top:-25px;
+ margin-left:-40px;
+ z-index:3;
+}
+
+#nav-dots-container li {
+ display:inline;
+}
+
+#nav-dots-container a {
+ box-shadow:0px 0px 10px white, 0px 0px 10px blue;
+ border-radius:1pc;
+ padding:2px 10px;
+ margin:0px 6px;
+ font-size:94%;
+ font-size:15px\0/;
+}
+
+#nav-dots-container a:hover {
+ box-shadow:0px 0px 10px blue,0px 0px 30px blue;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white, 0px 0px 30px blue;
+}
+
+/*********Bottom Left (Blue Lightning Rod Offer) ******/
+#buy-79098 {
+ float:left;
+ height:100%;
+ width: 39.9%;
+ border-bottom:double rgba(0,0,0,.2);
+ }
+ 
+ #buy-79098:hover {
+ box-shadow:0px 0px 20px #0057b1; 
+ }
+
+#buy-79098-container {
+ height:100%;
+ width:100%;
+ background-color:rgba(7,93,178,.25);
+ }
+ 
+#buy-79098-image {
+ height:100%;
+ width:100%;
+}
+
+#front-page-offer {
+ vertical-align:bottom;
+ float:right;
+ color:black;
+ width:290px;
+ height:103px;
+ font-size: 10px;
+ padding-top: 0px;
+ padding-right:4px;
+ text-shadow:1px 1px 2px yellow, 0px 0px 10px white, 0px 0px 30px blue;
+ text-align:right;
+ margin:0px;
+ font-family: inherit;
+/* background:url('http://localhost/core/images/79098-buy.png');
+ background-size:100% 100%;
+*/}
+
+#front-page-product {
+ position:absolute;
+ margin: 0px 10px;
+ text-shadow:1px 1px 2px yellow,0px 0px 20px black, 0px 0px 30px blue;
+}
+
+#fp-buy {
+ position: absolute;
+ margin-top: 66px;
+}
+
+.fp-buy-image {
+background: url('http://localhost/core/images/buy-now.png')!important;
+background-size:100% 100%;
+width: 60px;
+position: absolute;
+height: 24px;
+margin: -28px 116px;
+margin-left:216px\0/;
+border-radius:1pc;
+}
+
+.fp-buy-image:hover {
+background: url('http://localhost/core/images/buy-now-hover.png');
+background-size:100% 100%;
+}
+
+/****************Bottom Right (What is an Anode Rod?)***********/
+#what-is-anode-rod {
+ float:right;
+ height:100%;
+ width:59.9%;
+ /*overflow:hidden;
+ */margin-top:0px;
+ cursor:pointer;
+ }
+ 
+#what-is-anode-rod:hover {
+  box-shadow:0px 0px 20px #0057b1; 
+ }
+
+#what-is-anode-rod-image {
+height:100%;
+width:100%;
+}
+
+#what-is-anode-rod-text {
+ position:absolute;
+ margin-top:-172px;
+ margin-left:20px;
+}
+
+@media only screen and (max-device-height: 800px) {
+ #what-is-anode-rod-text {
+    margin-top:-142px;  
+ }
+}
+
+#what-is-anode-rod-text h3 {
+ font-family: 'Damion', cursive;
+ color: rgba(0,0,0,.9);
+ font-size:26px;
+ text-shadow: -1px -1px 4px yellow,0px 0px 4px blue, 0px 0px 20px blue;
+ font-weight:bold;
+}
+
+#what-is-anode-rod-text p {
+ color:rgba(0,0,0,.7);
+ font-size:18px;
+ margin-top:-46px;
+ text-shadow:0px 0px 5px yellow, 0px 0px 10px blue;
+}
+
+#learn-more {
+ background-color:orange;
+ margin-left:20px;
+ position:absolute;
+ width:100px;
+ color: #660033;
+ text-shadow:1px 1px 10px red, -3px -3px 10px purple;
+ font-size:16px;
+ font-weight:bold; 
+ margin-top:6px;
+ box-shadow:0px 0px 10px red,
+ background: -webkit-linear-gradient(yellow, red)!important; /* For Safari */
+ background: -o-linear-gradient(white, #6699ff)!important; /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(white, #6699ff)!important); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(yellow, red)!important; /* Standard syntax (must be last) */
+ border-radius:1pc;
+}
+
+
+#learn-more:hover {
+ box-shadow:0px -4px 20px yellow!important;
+ color:red;
+ text-shadow:0px 0px 4px black;
+}
+
+/************Main Nav Arrows*******************/
+
+#blue-left-nav-sprite-case {
+ float:left;
+ margin:-6px;
+ width:18px;
+ overflow:hidden;  
+}
+
+#blue-left-nav-sprite-case:hover {
+ transition-property: width;
+ transition-duration:.5s;
+ width:24px;
+}
+
+#blue-left-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-20px;
+}
+
+#blue-right-nav-sprite-case {
+ float:right;
+ margin:0px -10px;
+ width:18px;
+ overflow:hidden;  
+}
+
+#blue-right-nav-sprite-case:hover {
+ transition-property: width;
+ transition-duration:.5s;
+ width:24px;
+}
+
+#blue-right-nav-sprite {
+ margin-left:-30px;	
+}
+
+#blue-right-nav-sprite:hover {
+ 	transition-property: margin-left;
+	transition-duration:.5s;
+	margin-left:-2px;
+}
+
