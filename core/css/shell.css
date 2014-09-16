@@ -1,6 +1,13 @@
 /***************Body Fix **************/
 body {
  overflow-x: hidden!important;
+ background-image: url(https://s3-us-west-2.amazonaws.com/theplumberschoice/core/images/body-background.png);
+ background-size: 100%;
+ background-repeat: no-repeat no-repeat;
+ height: 98%;
+ width: 100%;
+ position: absolute; 
+ text-align:center;
 }
 
 @media only screen and (max-device-width: 1060px) {
@@ -37,11 +44,11 @@ body {
  box-shadow: 0px 0px 30px whitesmoke;
  border-radius: 2pc;
 }    
-
+/*
 #header, #social, #footer, #nav-dots-container, #nav-bar {
  margin:0 auto;
 }
-
+*/
 @media only screen and (min-device-height:800px) {
 	
 	#header {
@@ -166,6 +173,7 @@ border: double rgba(0,0,0,.2);
  color:grey;
  position:absolute;
  width:100%;
+ margin-top:-10px;
 }
 
 #footer-row-1 {
@@ -303,8 +311,12 @@ body {
  width:960px;
 }
 
+#footer {
+ margin-top:0px;
+}
+
 .f-nav-item {
- font-size:22px;
+ font-size:15px;
  font-weight:bolder;
   padding:8px 0px;
  }
@@ -384,8 +396,12 @@ and (orientation : portrait) {
  width:926px;
 }
 
+#footer {
+ margin-top:0px;
+}
+
 .f-nav-item {
-  font-size:22px;
+  font-size:15px;
   font-weight:bolder;
   padding:8px 0px;
  }
