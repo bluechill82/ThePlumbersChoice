@@ -16,6 +16,10 @@ text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
 #contact-us-content p {
  margin-top:-30px;   
  margin-top:-20px\0/;   
+ height:75%;
+ color: blue;
+ font-weight: bold;
+ text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
  }
 
 #contact-us, #contact-us a {
@@ -49,6 +53,10 @@ text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
  margin: 10px 406px;
  box-shadow: 0px 0px 10px white, 0px 0px 10px blue;
  border: 1px solid grey;
+}
+#map-iframe {
+ width:256px;
+ height:136px;
 }
 
 #company-address {

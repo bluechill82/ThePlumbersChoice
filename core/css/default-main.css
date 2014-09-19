@@ -895,9 +895,9 @@ Blue Lightning Rod Slide Four
 }
 
 #s12-image {
-  float:left;  
-  margin-left:30px;
-  margin-top: 80px;
+  position:absolute;
+  margin:230px 20px;
+  margin-left:30px\0/;
   width: 230px;
   border-radius: 1pc;
   box-shadow: 1px 1px 20px blue,0px 0px 20px white;

@@ -6,7 +6,7 @@
  height:100%;
 }
 
-#water-heater-owner-manuals{
+.water-heater-owner-manuals{
  height:75%;
 }
 
@@ -29,6 +29,8 @@
  width:100%;
  height:100%;
  background-color:rgba(7,93,178,.25);
+ margin: 0px;
+ padding-left: 0px;
 }
 
 #vender-select-four {
@@ -214,8 +216,9 @@ background:rgba(255,255,255,.9);
 }
 
 .p2-p2 {
- margin-top:120px;
- float:right;
+ margin: 0px 0px 0px 510px;
+ position: absolute;
+ display:block!important;
  width:120px;
  background:rgba(255,255,255,.9);
  border-radius:1pc;
@@ -224,12 +227,14 @@ background:rgba(255,255,255,.9);
 }
 
 .p2-p3 {
- position:absolute;
- margin:310px -330px;
- width:150px;
- padding:4px;
- border-radius:1pc;
- box-shadow:0px 0px 10px blue;
+ position: absolute;
+ display: block!important;
+ width: 100px;
+ padding: 4px;
+ border-radius: 1pc;
+ box-shadow: 0px 0px 10px blue;
+ background: rgba(255,255,255,.9);
+ margin: 290px 20px;
 }
 
 .p2-p4 {
@@ -252,12 +257,11 @@ background:rgba(255,255,255,.9);
 }
 
 #p2-image2 {
- position:absolute;
  height:250px;
  width:50px;
- margin: 350px -280px;
  border-radius:1pc;
  box-shadow:0px 0px 10px blue;
+ margin-top:20px;
 }
 
 #p2-h1-2 {
@@ -273,6 +277,11 @@ background:rgba(255,255,255,.9);
 .p3-ol {
  width:480px;
  }
+ 
+ .p3-ol li {
+ text-align:left;
+ margin-top:8px;
+ }
 
  #alert {
  color:red;
@@ -282,6 +291,8 @@ background:rgba(255,255,255,.9);
  }
  .p3-p3 {
  margin:40px;
+ list-style-type: none;
+ font-size: 1px;
  }
  
  /***********H2 Effects for AO Smith and State************/
@@ -476,11 +487,11 @@ and (orientation : landscape) {
 	 float:left;
 	 height:400px;
 	 width:100px;
-	 margin: 810px -310px;
+	 margin: 30px 0px;
 	}	
 	.p2-p3 {
 	 position:absolute;
-	 margin:740px -310px;
+	 margin:740px 30px;
 	 width:100px;
 	}
 	
@@ -511,14 +522,14 @@ and (orientation : portrait) {
 	
 	#p2-image2 {
 	 float:left;
-	 height:400px;
-	 width:100px;
-	 margin: 760px 90px;
+	 height:500px;
+	 width:110px;
+	 margin: 30px 20px;
 	}	
 	.p2-p3 {
 	 position:absolute;
-	 margin:660px 40px;
-	 width:200px;
+	 margin:660px 30px;
+	 width:150px;
 	 font-size:30px;
 	}
 	
@@ -543,6 +554,18 @@ and (orientation : landscape) {
 /***********************Iphone 5 Fix********************/
 @media screen and (device-aspect-ratio: 40/71) 
 and (orientation : portrait) { 
+	#p2-image2 {
+	 float:left;
+	 height:500px;
+	 width:110px;
+	 margin: 30px 20px;
+	}	
+	.p2-p3 {
+	 position:absolute;
+	 margin:660px 30px;
+	 width:150px;
+	 font-size:30px;
+	}
 
 
 }

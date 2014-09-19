@@ -1,0 +1,39 @@
+#policy-content {
+ height:360px;
+ width: 690px;
+ overflow-y:scroll; 
+}
+
+#text-markup {
+ text-shadow: -1px -1px 10px yellow,0px 0px 20px white, 0px 0px 40px blue;
+ padding:20px;
+ }
+
+#text-markup li, #text-markup p {
+ color:blue;
+ }
+
+#text-markup li {
+ margin:10px;
+ text-align:left; 
+ }
+ 
+#text-markup h3{
+ font-family: "Times New Roman", Times, serif;
+} 
+/***********************************************************************************************
+								Iphone 4 & 5 
+************************************************************************************************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 		
+	#policy-content {
+	 margin:0px;
+	 height:520px;
+	 width:100%;
+	 overflow:hidden; 
+	 Overflow-x:hidden;
+	 box-shadow:1px 1px 20px blue,0px 0px 20px white;
+	}	
+}

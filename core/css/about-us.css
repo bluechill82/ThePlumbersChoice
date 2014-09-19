@@ -1,3 +1,7 @@
+#default-main:hover {
+ cursor:default;
+} 
+
 #about-us-page {
  height:100%;
 }
@@ -16,7 +20,7 @@ color: blue;
 text-shadow: 1px 1px 2px yellow, 0px 0px 10px white,0px 0px 30px blue;
 }
 
-#about-us, #about-us a {
+.about-us, .about-us a {
  height:75%;
  color: blue;
  font-weight: bold;

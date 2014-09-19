@@ -48,7 +48,7 @@ padding: 4px 10px;
  float:left;
  height: 98px;
  width: 340px;
- margin-top:-4px;
+ margin-top:-26px;
  border-bottom-left-radius: 1pc;
  border-bottom-right-radius: 1pc;
  padding-left:10px;
@@ -60,10 +60,10 @@ padding: 4px 10px;
 }
 
 .left-product-detail {
- margin: 0px 20px;
+ display:block;
+ margin: 4px 0px 0px -300px;
  padding:4px;
  width:150px;
- float:left;
 }
 
 .left-product-detail:hover {
@@ -76,11 +76,12 @@ padding: 4px 10px;
 }
 
 .right-product-detail {
- float:right;
- margin:0px 20px;
+ display:block;
+ margin: -26px 414px;
  padding:4px;
  width:150px;
 }
+
 
 .right-product-detail:hover {
  text-shadow:0px 0px 2px yellow;  
@@ -105,7 +106,7 @@ padding: 4px 10px;
  float:right;
  height: 98px;
  width: 340px;
- margin-top:-4px;
+ margin-top:-26px;
  border-bottom-left-radius: 1pc;
  border-bottom-right-radius: 1pc;
  padding-left:10px;
@@ -115,10 +116,6 @@ padding: 4px 10px;
  box-shadow: -5px 5px 30px white, -10px 10px 30px blue;
  background:rgba(255,255,255,.7);
  height: 100px;
-}
- 
-#79096-product-details {
- margin-left:-300px!important;
 }
  
 #cart-offer-text {
@@ -134,14 +131,14 @@ border-radius: 1pc;
 .paypal-left {
 float: left;
 color: black;
-margin-top: 0px;
+margin-top: 28px;
 margin-left:4px;
  }
  
 .paypal-right {
 float: right;
 color: black;
-margin-top: 0px;
+margin-top: 28px;
 margin-right:4px;
  }
  
@@ -191,12 +188,10 @@ margin: 4px;
 }
 
 #not-avaliable {
-font-size: 20px;
-margin: 14px 50px;
-color: black;
-padding: 14px;
-border-radius: 2pc;
-width: 230px;
+ font-size: 14px;
+ margin: 40px 18px;
+ display:block;
+ color:black;
 }
 
 .product-title {
@@ -204,7 +199,6 @@ width: 230px;
  border-top-right-radius:1pc;
  border-top-left-radius:1pc;
  background:rgba(255,255,255,.5); 
- margin-bottom:8px;
 }
 
 .cart-row:hover .product-title {
@@ -268,20 +262,42 @@ and (orientation : portrait) {
 	
 	.left-cart-block {
 	 height: 180px;
-	 width: 440px;
+	 width: 450px;
 	 margin-top:0px;
 	 background:rgba(0,0,0,.1);
 	 }	
 	
+	.left-product-detail {
+	 margin: 0px 10px;
+	 font-size:30px;
+	}
+	
+	.right-product-detail {
+	 margin: 0px 698px;
+	 font-size:30px;
+	 width:200px
+	}
+	
 	.right-cart-block {
 	 height: 180px;
-	 width: 440px;
+	 width: 450px;
 	 margin-top:0px;
 	 background:rgba(0,0,0,.1);
 	}
 	
 	.right-cart-block:hover {
 	 height: 180px;
+	}
+	
+	.paypal-left {
+	 margin-top: 6px;
+	 margin-left:230px;
+	 width:200px;
+	}
+ 
+	.paypal-right {
+	 margin-top: 6px;
+	 margin-right:220px;
 	}
 	
 	.productid {
@@ -312,41 +328,16 @@ and (orientation : portrait) {
 	
 	#not-avaliable {
 	 font-size: 36px;
-	 width:300px;
 	}
 	
-	#cart-79098, #cart-79106, #cart-79096, #cart-79118, #cart-79095 {
+	#cart-79098, #cart-79106, #cart-79096, #cart-79093, #cart-79095 {
 	 height: 110px;
-	 margin: 60px 30px;
-	}
-	
-		
-	.left-product-detail {
-	 margin: 0px -180px;
-	 font-size:30px;
-	 width:200px;
-	}
-	
-	.paypal-left {
-	 margin-top: -220px;
-	 margin-left:210px;
-	 width:230px;
+	 margin: 50px;
 	}
 
-	#cart-79099, #cart-79107, #cart-79094 , #cart-79119{
+	#cart-79099, #cart-79107, #cart-79094 {
 	 height: 110px;
-	 margin: 60px 30px;
-	}
-			
-	.right-product-detail {
-	 margin: 0px -170px;
-	 font-size:30px;
-	 width:200px
-	}
-	
-	.paypal-right {
-	 margin-top: -220px;
-	 margin-right:220px;
+	 margin: 50px;
 	}
 	
 	#view-cart {
@@ -382,7 +373,7 @@ and (orientation : portrait) {
 }
 
 /***********************************************************************************************
-								Iphone 4 & 5 landscape
+								Iphone 4 & 5 Portrait
 ************************************************************************************************/  
 @media only screen 
 and (min-device-width : 320px) 
